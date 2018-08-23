@@ -5,6 +5,7 @@ set -x
 # 手机设置
 # 开发者选项连接USB
 # [设置]->[显示]->[休眠]，最长时间休眠
+# 开发者选项，保持唤醒状态
 # 开始屏幕最好只有一页，不强求
 # ROOT
 
@@ -18,6 +19,7 @@ set -x
 dos2unix apk_url.txt
 for line in `cat apk_url.txt`
 do
+    echo "======初始化相关目录======"
     if [ -e ./apk_temp ]; then
         rm -rf ./apk_temp
         mkdir ./apk_temp
@@ -25,51 +27,41 @@ do
         mkdir ./apk_temp
     fi
 
+    echo "======下载APK======"
     echo ${line}
     wget ${line} -O ./apk_temp/temp.apk
-#    apk_info=`aapt dump badging ./apk_temp/temp.apk`
-#    echo ${apk_info}
-#    package_name=`echo ${apk_info} | grep "package: name="`
-#    echo ${package_name}
+
+    echo "======解析APK相关信息======"
     aapt dump badging ./apk_temp/temp.apk > ./apk_temp/apk_info.log
     if [ $? -gt 0 ]; then
+        echo "?????解析APK相关信息不成功?????"
         continue
     fi
-
+    cat ./apk_temp/apk_info.log
     package_name=`cat ./apk_temp/apk_info.log | grep "package: name" | awk '{print $2}' | cut -d "'" -f 2`
-#    package_name=`echo -n ${package_name}`
     echo ${package_name}
     launchable_activity=`cat ./apk_temp/apk_info.log | grep "launchable-activity: name" | awk '{print $2}' | cut -d "'" -f 2`
-#    launchable_activity=`echo -n ${launchable_activity}`
     echo ${launchable_activity}
 
+    echo "======判断APK是否已经安装======"
     is_install=`adb -s 48db50a5b827 shell pm list packages -f | grep ${package_name}`
     echo ${is_install}
     echo ${#is_install}
 
     if [ ${#is_install} == 0 ]; then
+        echo "======安装APK======"
         adb -s 48db50a5b827 install ./apk_temp/temp.apk
     fi
 
+    echo "======判断APK是否已经安装成功======"
     is_install=`adb -s 48db50a5b827 shell pm list packages -f | grep ${package_name}`
     echo ${is_install}
     echo ${#is_install}
 
-    is_running=`adb -s 48db50a5b827 shell ps | grep ${package_name}`
-    echo ${is_running}
-    echo ${#is_running}
+    echo "======强制重启APK======"
+    adb -s 48db50a5b827 shell am force-stop ${package_name}
+    adb -s 48db50a5b827 shell am start -n ${package_name}/${launchable_activity}
 
-    if [ ${#is_running} == 0 ]; then
-        adb -s 48db50a5b827 shell am start -n ${package_name}/${launchable_activity}
-    else
-        # 不能直接杀死进程，需要root
-        adb -s 48db50a5b827 shell am force-stop ${package_name}
-        adb -s 48db50a5b827 shell am start -n ${package_name}/${launchable_activity}
-    fi
-
-    is_running=`adb -s 48db50a5b827 shell ps | grep ${package_name}`
-    echo ${is_running}
-    echo ${#is_running}
 
     # 1、判断屏幕是否睡眠 adb -s 48db50a5b827 shell cat /sys/power/state 需要root
     # 2、唤醒屏幕 adb -s 48db50a5b827 shell input keyevent 26
@@ -79,54 +71,70 @@ do
     # 6、介绍页面过后可能有欢迎页面
     # 7、检查登录
 
+    echo "======第一次运行APK授权======"
+    dump -c 48db50a5b827
+    sleep 3
     is_alert=`dump -c 48db50a5b827 | grep 'alertTitle'`
     while [[ ${#is_alert} != 0 ]]
     do
         adb -s 48db50a5b827 shell input tap 502 757
         is_alert=`dump -c 48db50a5b827 | grep 'alertTitle'`
+        sleep 3
     done
 
-    # 第二次运行就没有介绍页面了，所以先停止应用，再开始应用
+    echo "======强制重启APK跳过介绍页面======"
     adb -s 48db50a5b827 shell am force-stop ${package_name}
     adb -s 48db50a5b827 shell am start -n ${package_name}/${launchable_activity}
-#    introduction_count=0
-#    is_introduce=`dump -c 48db50a5b827 | grep 'FrameLayout'`
-#    while [[ ${#is_introduce} != 0 ]]
-#    do
-#        adb shell input swipe 510 700 120 700 500
-#        sleep 5
-#        let "introduction_count=introduction_count+1"
-#        if [ ${introduction_count} -gt 10 ]; then
-#            break
-#        fi
-#        is_introduce=`dump -c 48db50a5b827 | grep 'FrameLayout'`
-#    done
 
-
+    echo "======获取登录界面======"
+    dump -c 48db50a5b827
+    sleep 3
     is_login=`dump -c 48db50a5b827 | grep "登录"`
     if [ ${#is_login} != 0 ]; then
         adb -s 48db50a5b827 uninstall ${package_name}
         continue
     fi
 
+    echo "======正式运行APK主界面======"
     dump -c 48db50a5b827
+    sleep 3
     dump -c 48db50a5b827 | grep "TextView" | awk -F '\n' '{print $1}' | cut -d '(' -f 2 | cut -d ')' -f 1 | awk -F ', ' '{print $1,$2}' > ./apk_temp/coordinate.log
-#    dump -c 48db50a5b827 | grep "TextView" | cut -d '(' -f 2 | cut -d ')' -f 1 > ./apk_temp/coordinate.log
-#    dump -c 48db50a5b827 | grep "TextView" > ./apk_temp/coordinate.log
+#    dump -c 48db50a5b827 | grep "TextView" > ./apk_temp/TextView.log
+#    cat ./apk_temp/TextView.log | awk -F '(' '{print $2}' > ./apk_temp/TextView2.log
+#    cat ./apk_temp/TextView2.log | awk -F ')' '{print $1}' > ./apk_temp/coordinate.log
+#    sed -i s/,//g ./apk_temp/coordinate.log
+#    sleep 3
+#
+    dos2unix ./apk_temp/coordinate.log
+    cat ./apk_temp/coordinate.log
+    x_coordinate=(`awk '{print $1}' ./apk_temp/coordinate.log`)
+    y_coordinate=(`awk '{print $2}' ./apk_temp/coordinate.log`)
 
-    cat ./apk_temp/coordinate.log | while read coordinate
+
+#    x_coordinate=(77 360 658 72 216 504 647 359)
+#    y_coordinate=(106 106 106 1138 1138 1138 1138 1162)
+
+    i=0
+    while [[ "$i" -lt ${#x_coordinate[*]} ]]
     do
-        echo ${coordinate}
-        adb -s 48db50a5b827 shell input tap ${coordinate}
-        sleep 2
-        adb -s 48db50a5b827 shell input keyevent 4
+         echo ${x_coordinate[${i}]}
+         echo ${y_coordinate[${i}]}
+
+         adb -s 48db50a5b827 shell input tap ${x_coordinate[${i}]} ${y_coordinate[${i}]}
+         sleep 2
+         adb -s 48db50a5b827 shell input keyevent 4
+         sleep 2
+
+         let "i=i+1"
 
     done
 
+
+
+
+
 #    adb -s 48db50a5b827 uninstall ${package_name}
 
-    sleep 3
+    sleep 1
 
 done
-
-
