@@ -1,0 +1,2355 @@
+**********************************************************************************
+****************************************任务4*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/0FFD5438386863A86DEDF883725E87BE.apk?fsname=com.ss.android.article.news_6.8.2_682.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.ss.android.article.news' versionCode='682' versionName='6.8.2' platformBuildVersionName='8.1.0'
+launchable-activity: name='com.ss.android.article.news.activity.SplashBadgeActivity'  label='今日头条' icon=''
+com.ss.android.article.news
+com.ss.android.article.news.activity.SplashBadgeActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.ss.android.article.news/.activity.SplashBadgeActivity }
+Error type 3
+Error: Activity class {com.ss.android.article.news/com.ss.android.article.news.activity.SplashBadgeActivity} does not exist.
+?????APK运行失败?????
+Success
+总运行时间: 38
+**********************************************************************************
+****************************************任务8*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/75299AF5D17504874F9F25ED7C5193F3.apk?fsname=com.tencent.qqpim_6.9.1_1690.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.tencent.qqpim' versionCode='1690' versionName='6.9.1' platformBuildVersionName='7.1.1'
+launchable-activity: name='com.tencent.qqpim.ui.QQPimAndroid'  label='' icon=''
+com.tencent.qqpim
+com.tencent.qqpim.ui.QQPimAndroid
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.tencent.qqpim/.ui.QQPimAndroid }
+======APK运行成功======
+======第一次进入APK后的界面======
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 05 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 35 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  QQ同步助手 (96, 710)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+======设置相关权限页面======
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 05 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 35 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  QQ同步助手 (96, 710)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+
+
+======初步计算界面返回信息的行数======
+dos2unix: converting file ./apk_temp/count_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 05 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 35 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  QQ同步助手 (96, 710)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+41
+======已经进入主Activity======
+======APK主界面======
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 05 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 35 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  QQ同步助手 (96, 710)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+Success
+======卸载APK后的界面======
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 06 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 35 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 06 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 35 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+总运行时间: 107
+执行命令时间: 82
+**********************************************************************************
+****************************************任务9*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/DA40FB58B622F7539C243B54E3D9B1A1.apk?fsname=com.tencent.qqpim_6.9.1_1680.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.tencent.qqpim' versionCode='1680' versionName='6.9.1' platformBuildVersionName='7.1.1'
+launchable-activity: name='com.tencent.qqpim.ui.QQPimAndroid'  label='' icon=''
+com.tencent.qqpim
+com.tencent.qqpim.ui.QQPimAndroid
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.tencent.qqpim/.ui.QQPimAndroid }
+======APK运行成功======
+======第一次进入APK后的界面======
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 07 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 35 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  QQ同步助手 (96, 710)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+======设置相关权限页面======
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 07 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 35 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  QQ同步助手 (96, 710)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+
+
+======初步计算界面返回信息的行数======
+dos2unix: converting file ./apk_temp/count_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 07 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 35 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  QQ同步助手 (96, 710)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+41
+======已经进入主Activity======
+======APK主界面======
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 07 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 35 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  QQ同步助手 (96, 710)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+Success
+======卸载APK后的界面======
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 07 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 35 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 07 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 35 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+总运行时间: 107
+执行命令时间: 82
+**********************************************************************************
+****************************************任务12*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/3EB303A5EE622AA2ADD14304D136A41F.apk?fsname=com.ss.android.article.video_2.6.4_264.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.ss.android.article.video' versionCode='264' versionName='2.6.4' platformBuildVersionName='7.1.1'
+launchable-activity: name='com.ss.android.article.video.activity.SplashActivity'  label='西瓜视频' icon=''
+com.ss.android.article.video
+com.ss.android.article.video.activity.SplashActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.ss.android.article.video/.activity.SplashActivity }
+======APK运行成功======
+======第一次进入APK后的界面======
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+======设置相关权限页面======
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 西瓜视频需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (10) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+502
+757
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+
+
+======初步计算界面返回信息的行数======
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+dos2unix: converting file ./apk_temp/count_screen.log to Unix format...
+0
+======从右向左滑动======
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+完成授权和滑动后的页面
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+
+
+======APK主界面======
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+Success
+======卸载APK后的界面======
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.android.browser:id/titlebar_img_bookmark  (65, 98)
+   android.widget.ImageView com.android.browser:id/titlebar_img_lock  (131, 98)
+   android.widget.EditText com.android.browser:id/url 西瓜视频卸载调查 (379, 98)
+   android.widget.ImageView com.android.browser:id/titlebar_img_refresh  (668, 98)
+   android.webkit.WebView   (360, 606)
+   android.widget.RelativeLayout com.android.browser:id/bottombar_backward_layout  (120, 1124)
+      android.widget.ImageView com.android.browser:id/bt_back_img  (120, 1111)
+      android.widget.TextView com.android.browser:id/bt_back_txt 后退 (120, 1157)
+   android.widget.RelativeLayout com.android.browser:id/bottombar_forward_layout  (240, 1124)
+      android.widget.ImageView com.android.browser:id/bt_forward_img  (240, 1111)
+      android.widget.TextView com.android.browser:id/bt_forward_txt 前进 (240, 1157)
+   android.widget.RelativeLayout com.android.browser:id/bottombar_more_layout  (360, 1124)
+      android.widget.ImageView com.android.browser:id/bt_menu_img  (360, 1111)
+      android.widget.TextView com.android.browser:id/bt_menu_txt 菜单 (360, 1157)
+   android.widget.RelativeLayout com.android.browser:id/bottombar_home_layout  (480, 1124)
+      android.widget.ImageView com.android.browser:id/bt_home_img  (480, 1111)
+      android.widget.TextView com.android.browser:id/bt_home_txt 主页面 (480, 1157)
+   android.widget.RelativeLayout com.android.browser:id/bottombar_window_layout  (600, 1124)
+      android.widget.TextView com.android.browser:id/bt_windows_num_txt 1 (603, 1116)
+      android.widget.ImageView com.android.browser:id/bt_windows_img  (600, 1111)
+      android.widget.TextView com.android.browser:id/bt_windows_txt 多窗口 (600, 1157)
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 18 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 35 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+总运行时间: 168
+执行命令时间: 143
+**********************************************************************************
+****************************************任务13*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/9B98618E7E565EBA7C753278487E2B22.apk?fsname=com.shoujiduoduo.ringtone_8.7.14.0_60087140.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.shoujiduoduo.ringtone' versionCode='60087140' versionName='8.7.14.0'
+launchable-activity: name='com.shoujiduoduo.ringtone.activity.WelcomeActivity'  label='' icon=''
+com.shoujiduoduo.ringtone
+com.shoujiduoduo.ringtone.activity.WelcomeActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.shoujiduoduo.ringtone/.activity.WelcomeActivity }
+======APK运行成功======
+======第一次进入APK后的界面======
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 铃声多多需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (7) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+======设置相关权限页面======
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 铃声多多需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (2) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+502
+757
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取短信/彩信 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 铃声多多需要读取您的短信/彩信。 (276, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (13) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+502
+757
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+
+
+======初步计算界面返回信息的行数======
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+dos2unix: converting file ./apk_temp/count_screen.log to Unix format...
+0
+======从右向左滑动======
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+完成授权和滑动后的页面
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+
+
+======APK主界面======
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+Success
+======卸载APK后的界面======
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 21 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 34 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 21 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 34 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+总运行时间: 175
+执行命令时间: 150
+**********************************************************************************
+****************************************任务18*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/4461B088FC6192E89C07CCFCEEFF9EC9.apk?fsname=com.moxiu.launcher_6.4.30_673.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.moxiu.launcher' versionCode='673' versionName='6.4.30' platformBuildVersionName='6.0-2704002'
+launchable-activity: name='com.moxiu.market.activity.PreloadPluginActivity'  label='魔秀主题' icon='r/a2/moxiu_sense.png'
+launchable-activity: name='com.moxiu.launcher.Launcher'  label='' icon=''
+com.moxiu.launcher
+com.moxiu.market.activity.PreloadPluginActivity com.moxiu.launcher.Launcher
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] pkg=com.moxiu.launcher.Launcher cmp=com.moxiu.launcher/com.moxiu.market.activity.PreloadPluginActivity }
+======APK运行成功======
+======第一次进入APK后的界面======
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+======设置相关权限页面======
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+
+
+======初步计算界面返回信息的行数======
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+dos2unix: converting file ./apk_temp/count_screen.log to Unix format...
+0
+======从右向左滑动======
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+完成授权和滑动后的页面
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+
+
+======APK主界面======
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+Success
+======卸载APK后的界面======
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 34 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 34 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 34 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 34 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+总运行时间: 156
+执行命令时间: 131
+**********************************************************************************
+****************************************任务23*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/E6C1828AC564E5A2CD7659A2E53DCD40.apk?fsname=com.baidu.netdisk_8.7.0_609.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.baidu.netdisk' versionCode='609' versionName='8.7.0' platformBuildVersionName='6.0-2704002'
+launchable-activity: name='com.baidu.netdisk.ui.Navigate'  label='百度网盘' icon=''
+com.baidu.netdisk
+com.baidu.netdisk.ui.Navigate
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.baidu.netdisk/.ui.Navigate }
+======APK运行成功======
+======第一次进入APK后的界面======
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 百度网盘需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (12) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+======设置相关权限页面======
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 百度网盘需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (7) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+502
+757
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.baidu.netdisk:id/viewPager  (360, 617)
+   android.widget.Button com.baidu.netdisk:id/registerBtn 注册 (208, 1090)
+   android.widget.Button com.baidu.netdisk:id/loginBtn 登录 (512, 1090)
+
+
+======初步计算界面返回信息的行数======
+dos2unix: converting file ./apk_temp/count_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.baidu.netdisk:id/viewPager  (360, 617)
+   android.widget.Button com.baidu.netdisk:id/registerBtn 注册 (208, 1090)
+   android.widget.Button com.baidu.netdisk:id/loginBtn 登录 (512, 1090)
+4
+======从右向左滑动======
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.baidu.netdisk:id/viewPager  (360, 617)
+   android.widget.Button com.baidu.netdisk:id/registerBtn 注册 (208, 1090)
+   android.widget.Button com.baidu.netdisk:id/loginBtn 登录 (512, 1090)
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.baidu.netdisk:id/viewPager  (360, 617)
+   android.widget.Button com.baidu.netdisk:id/registerBtn 注册 (208, 1090)
+   android.widget.Button com.baidu.netdisk:id/loginBtn 登录 (512, 1090)
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.baidu.netdisk:id/viewPager  (360, 617)
+   android.widget.Button com.baidu.netdisk:id/registerBtn 注册 (208, 1090)
+   android.widget.Button com.baidu.netdisk:id/loginBtn 登录 (512, 1090)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.baidu.netdisk:id/title_btn_left_iv  (31, 95)
+   android.widget.TextView com.baidu.netdisk:id/title 百度帐号登录 (360, 95)
+   android.webkit.WebView   (360, 663)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.baidu.netdisk:id/title_btn_left_iv  (31, 95)
+   android.widget.TextView com.baidu.netdisk:id/title 百度帐号登录 (360, 95)
+   android.webkit.WebView   (360, 663)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.baidu.netdisk:id/title_btn_left_iv  (31, 95)
+   android.widget.TextView com.baidu.netdisk:id/title 百度帐号登录 (360, 95)
+   android.webkit.WebView   (360, 663)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.baidu.netdisk:id/title_btn_left_iv  (31, 95)
+   android.widget.TextView com.baidu.netdisk:id/title 百度帐号登录 (360, 95)
+   android.webkit.WebView   (360, 663)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.baidu.netdisk:id/title_btn_left_iv  (31, 95)
+   android.widget.TextView com.baidu.netdisk:id/title 百度帐号登录 (360, 95)
+   android.webkit.WebView   (360, 663)
+完成授权和滑动后的页面
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.baidu.netdisk:id/title_btn_left_iv  (31, 95)
+   android.widget.TextView com.baidu.netdisk:id/title 百度帐号登录 (360, 95)
+   android.webkit.WebView   (360, 663)
+
+
+======APK主界面======
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.baidu.netdisk:id/title_btn_left_iv  (31, 95)
+   android.widget.TextView com.baidu.netdisk:id/title 百度帐号登录 (360, 95)
+   android.webkit.WebView   (360, 663)
+Success
+======卸载APK后的界面======
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 48 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 34 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 48 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 34 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+总运行时间: 226
+执行命令时间: 201
+**********************************************************************************
+****************************************任务24*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/A6090DB351F2482BFD08A185E0B65571.apk?fsname=com.xunlei.downloadprovider_5.62.2.5570_11120.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.xunlei.downloadprovider' versionCode='11120' versionName='5.62.2.5570' platformBuildVersionName='8.0.0'
+launchable-activity: name='com.xunlei.downloadprovider.launch.LaunchActivity'  label='迅雷' icon=''
+com.xunlei.downloadprovider
+com.xunlei.downloadprovider.launch.LaunchActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.xunlei.downloadprovider/.launch.LaunchActivity }
+======APK运行成功======
+======第一次进入APK后的界面======
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 迅雷需要读取您的位置信息。 (245, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (8) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+======设置相关权限页面======
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 迅雷需要读取您的位置信息。 (245, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (3) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+502
+757
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 迅雷需要读取您的位置信息。 (245, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (11) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+502
+757
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.xunlei.downloadprovider:id/view_pager_guide  (360, 446)
+   android.widget.TextView  登录领取极速下载特权 (360, 984)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_wechat 微信 (142, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_qq QQ (360, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_account 手机号/帐号 (578, 1088)
+
+
+======初步计算界面返回信息的行数======
+dos2unix: converting file ./apk_temp/count_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.xunlei.downloadprovider:id/view_pager_guide  (360, 446)
+   android.widget.TextView  登录领取极速下载特权 (360, 984)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_wechat 微信 (142, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_qq QQ (360, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_account 手机号/帐号 (578, 1088)
+6
+======从右向左滑动======
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.xunlei.downloadprovider:id/view_pager_guide  (360, 446)
+   android.widget.TextView  登录领取极速下载特权 (360, 984)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_wechat 微信 (142, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_qq QQ (360, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_account 手机号/帐号 (578, 1088)
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.xunlei.downloadprovider:id/view_pager_guide  (360, 446)
+   android.widget.TextView  登录领取极速下载特权 (360, 984)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_wechat 微信 (142, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_qq QQ (360, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_account 手机号/帐号 (578, 1088)
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.xunlei.downloadprovider:id/view_pager_guide  (360, 446)
+   android.widget.TextView  登录领取极速下载特权 (360, 984)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_wechat 微信 (142, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_qq QQ (360, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_account 手机号/帐号 (578, 1088)
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.xunlei.downloadprovider:id/view_pager_guide  (360, 446)
+   android.widget.TextView  登录领取极速下载特权 (360, 984)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_wechat 微信 (142, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_qq QQ (360, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_account 手机号/帐号 (578, 1088)
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.xunlei.downloadprovider:id/view_pager_guide  (360, 446)
+   android.widget.TextView  登录领取极速下载特权 (360, 984)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_wechat 微信 (142, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_qq QQ (360, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_account 手机号/帐号 (578, 1088)
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.xunlei.downloadprovider:id/view_pager_guide  (360, 446)
+   android.widget.TextView  登录领取极速下载特权 (360, 984)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_wechat 微信 (142, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_qq QQ (360, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_account 手机号/帐号 (578, 1088)
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.xunlei.downloadprovider:id/view_pager_guide  (360, 446)
+   android.widget.TextView  登录领取极速下载特权 (360, 984)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_wechat 微信 (142, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_qq QQ (360, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_account 手机号/帐号 (578, 1088)
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.xunlei.downloadprovider:id/view_pager_guide  (360, 446)
+   android.widget.TextView  登录领取极速下载特权 (360, 984)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_wechat 微信 (142, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_qq QQ (360, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_account 手机号/帐号 (578, 1088)
+完成授权和滑动后的页面
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.xunlei.downloadprovider:id/view_pager_guide  (360, 446)
+   android.widget.TextView  登录领取极速下载特权 (360, 984)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_wechat 微信 (142, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_qq QQ (360, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_account 手机号/帐号 (578, 1088)
+
+
+======APK主界面======
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.xunlei.downloadprovider:id/view_pager_guide  (360, 446)
+   android.widget.TextView  登录领取极速下载特权 (360, 984)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_wechat 微信 (142, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_qq QQ (360, 1088)
+   android.widget.TextView com.xunlei.downloadprovider:id/btn_account 手机号/帐号 (578, 1088)
+Success
+======卸载APK后的界面======
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 52 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 34 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 52 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 34 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+总运行时间: 226
+执行命令时间: 201
+**********************************************************************************
+****************************************任务55*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/26E18FA000512DE047237BE534C7EAA8.apk?fsname=cn.com.chinatelecom.account_Ver.4.2.1_327.apk&csr=9dcc
+======解析APK相关信息======
+package: name='cn.com.chinatelecom.account' versionCode='327' versionName='Ver.4.2.1' platformBuildVersionName='7.1.1'
+launchable-activity: name='cn.com.chinatelecom.account.ui.splash.SplashActivity'  label='天翼账号中心' icon=''
+cn.com.chinatelecom.account
+cn.com.chinatelecom.account.ui.splash.SplashActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=cn.com.chinatelecom.account/.ui.splash.SplashActivity }
+Error type 3
+Error: Activity class {cn.com.chinatelecom.account/cn.com.chinatelecom.account.ui.splash.SplashActivity} does not exist.
+?????APK运行失败?????
+Success
+总运行时间: 30
+**********************************************************************************
+****************************************任务63*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/1B01994F8D72AA5CF3431ABC651CEABB.apk?fsname=com.telecom.video_5.3.37.14_2105337014.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.telecom.video' versionCode='2105337014' versionName='5.3.37.14'
+launchable-activity: name='com.telecom.video.ui.activity.LoadingActivity'  label='Esurfing Video' icon=''
+com.telecom.video
+com.telecom.video.ui.activity.LoadingActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.telecom.video/.ui.activity.LoadingActivity }
+Error type 3
+Error: Activity class {com.telecom.video/com.telecom.video.ui.activity.LoadingActivity} does not exist.
+?????APK运行失败?????
+Failure
+总运行时间: 33
+**********************************************************************************
+****************************************任务65*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/2ED17C12B3B57E1E4F4C1A6DC74D7461.apk?fsname=com.telecom.video_5.3.37.11_2105337011.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.telecom.video' versionCode='2105337011' versionName='5.3.37.11'
+launchable-activity: name='com.telecom.video.ui.activity.LoadingActivity'  label='Esurfing Video' icon=''
+com.telecom.video
+com.telecom.video.ui.activity.LoadingActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.telecom.video/.ui.activity.LoadingActivity }
+Error type 3
+Error: Activity class {com.telecom.video/com.telecom.video.ui.activity.LoadingActivity} does not exist.
+?????APK运行失败?????
+Failure
+总运行时间: 34
+**********************************************************************************
+****************************************任务72*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/2346AF37661A64D178401F158DB2FC03.apk?fsname=com.picsart.studio_9.40.3_993000403.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.picsart.studio' versionCode='993000403' versionName='9.40.3'
+launchable-activity: name='com.socialin.android.photo.picsinphoto.MainPagerActivity'  label='' icon=''
+com.picsart.studio
+com.socialin.android.photo.picsinphoto.MainPagerActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.picsart.studio/com.socialin.android.photo.picsinphoto.MainPagerActivity }
+======APK运行成功======
+======第一次进入APK后的界面======
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取本机识别码 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message PicsArt美易照片编辑需要读取本机标识码。 (327, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (6) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+======设置相关权限页面======
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取本机识别码 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message PicsArt美易照片编辑需要读取本机标识码。 (327, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (1) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+502
+757
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message PicsArt美易照片编辑需要读取您的位置信息。 (340, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (12) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+502
+757
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+
+
+======初步计算界面返回信息的行数======
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+dos2unix: converting file ./apk_temp/count_screen.log to Unix format...
+0
+======从右向左滑动======
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+完成授权和滑动后的页面
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+
+
+======APK主界面======
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: Killed 
+
+Success
+======卸载APK后的界面======
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 20 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 16 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 26 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 20 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 16 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 26 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+总运行时间: 242
+执行命令时间: 217
+**********************************************************************************
+****************************************任务86*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/D31EA18D88A5DC5788CEF48C3BD4989A.apk?fsname=com.cainiao.wireless_4.8.3_112.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.cainiao.wireless' versionCode='112' versionName='4.8.3' platformBuildVersionName='7.1.1'
+launchable-activity: name='com.cainiao.wireless.homepage.presentation.view.activity.HomepageActivity'  label='菜鸟裹裹' icon=''
+com.cainiao.wireless
+com.cainiao.wireless.homepage.presentation.view.activity.HomepageActivity
+======尝试安装APK======
+error: device '48db50a5b827' not found
+?????APK安装失败?????
+error: device '48db50a5b827' not found
+- waiting for device -
+Failure
+总运行时间: 91
+**********************************************************************************
+****************************************任务87*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/02B65A159C971C667E8F87E6F46DADB9.apk?fsname=com.erdo.android.FJDXCartoon_4.2.00_4002000.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.erdo.android.FJDXCartoon' versionCode='4002000' versionName='4.2.00' platformBuildVersionName='6.0-2438415'
+launchable-activity: name='cn.icartoon.application.activity.SplashActivity'  label='爱动漫' icon='res/mipmap-xxxhdpi/icon_logo.png'
+com.erdo.android.FJDXCartoon
+cn.icartoon.application.activity.SplashActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.erdo.android.FJDXCartoon/cn.icartoon.application.activity.SplashActivity }
+Error type 3
+Error: Activity class {com.erdo.android.FJDXCartoon/cn.icartoon.application.activity.SplashActivity} does not exist.
+?????APK运行失败?????
+Success
+总运行时间: 84
+**********************************************************************************
+****************************************任务98*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/4A415E1D6C02C1FA9DEA767890BCE4D1.apk?fsname=com.cubic.choosecar_6.1.1_6110.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.cubic.choosecar' versionCode='6110' versionName='6.1.1' platformBuildVersionName='8.0.0'
+com.cubic.choosecar
+
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+usage: am [subcommand] [options]
+usage: am start [-D] [-W] [-P <FILE>] [--start-profiler <FILE>]
+               [--R COUNT] [-S] [--opengl-trace]
+               [--user <USER_ID> | current] <INTENT>
+       am startservice [--user <USER_ID> | current] <INTENT>
+       am stopservice [--user <USER_ID> | current] <INTENT>
+       am force-stop [--user <USER_ID> | all | current] <PACKAGE>
+       am kill [--user <USER_ID> | all | current] <PACKAGE>
+       am kill-all
+       am broadcast [--user <USER_ID> | all | current] <INTENT>
+       am instrument [-r] [-e <NAME> <VALUE>] [-p <FILE>] [-w]
+               [--user <USER_ID> | current]
+               [--no-window-animation] <COMPONENT>
+       am profile start [--user <USER_ID> current] <PROCESS> <FILE>
+       am profile stop [--user <USER_ID> current] [<PROCESS>]
+       am dumpheap [--user <USER_ID> current] [-n] <PROCESS> <FILE>
+       am set-debug-app [-w] [--persistent] <PACKAGE>
+       am clear-debug-app
+       am monitor [--gdb <port>]
+       am hang [--allow-restart]
+       am restart
+       am idle-maintenance
+       am screen-compat [on|off] <PACKAGE>
+       am to-uri [INTENT]
+       am to-intent-uri [INTENT]
+       am switch-user <USER_ID>
+       am stop-user <USER_ID>
+       am stack create <TASK_ID> <RELATIVE_STACK_BOX_ID> <POSITION> <WEIGHT>
+       am stack movetask <TASK_ID> <STACK_ID> [true|false]
+       am stack resize <STACK_ID> <WEIGHT>
+       am stack boxes
+       am stack box <STACK_BOX_ID>
+
+am start: start an Activity.  Options are:
+    -D: enable debugging
+    -W: wait for launch to complete
+    --start-profiler <FILE>: start profiler and send results to <FILE>
+    -P <FILE>: like above, but profiling stops when app goes idle
+    -R: repeat the activity launch <COUNT> times.  Prior to each repeat,
+        the top activity will be finished.
+    -S: force stop the target app before starting the activity
+    --opengl-trace: enable tracing of OpenGL functions
+    --user <USER_ID> | current: Specify which user to run as; if not
+        specified then run as the current user.
+
+am startservice: start a Service.  Options are:
+    --user <USER_ID> | current: Specify which user to run as; if not
+        specified then run as the current user.
+
+am stopservice: stop a Service.  Options are:
+    --user <USER_ID> | current: Specify which user to run as; if not
+        specified then run as the current user.
+
+am force-stop: force stop everything associated with <PACKAGE>.
+    --user <USER_ID> | all | current: Specify user to force stop;
+        all users if not specified.
+
+am kill: Kill all processes associated with <PACKAGE>.  Only kills.
+  processes that are safe to kill -- that is, will not impact the user
+  experience.
+    --user <USER_ID> | all | current: Specify user whose processes to kill;
+        all users if not specified.
+
+am kill-all: Kill all background processes.
+
+am broadcast: send a broadcast Intent.  Options are:
+    --user <USER_ID> | all | current: Specify which user to send to; if not
+        specified then send to all users.
+    --receiver-permission <PERMISSION>: Require receiver to hold permission.
+
+am instrument: start an Instrumentation.  Typically this target <COMPONENT>
+  is the form <TEST_PACKAGE>/<RUNNER_CLASS>.  Options are:
+    -r: print raw results (otherwise decode REPORT_KEY_STREAMRESULT).  Use with
+        [-e perf true] to generate raw output for performance measurements.
+    -e <NAME> <VALUE>: set argument <NAME> to <VALUE>.  For test runners a
+        common form is [-e <testrunner_flag> <value>[,<value>...]].
+    -p <FILE>: write profiling data to <FILE>
+    -w: wait for instrumentation to finish before returning.  Required for
+        test runners.
+    --user <USER_ID> | current: Specify user instrumentation runs in;
+        current user if not specified.
+    --no-window-animation: turn off window animations while running.
+
+am profile: start and stop profiler on a process.  The given <PROCESS> argument
+  may be either a process name or pid.  Options are:
+    --user <USER_ID> | current: When supplying a process name,
+        specify user of process to profile; uses current user if not specified.
+
+am dumpheap: dump the heap of a process.  The given <PROCESS> argument may
+  be either a process name or pid.  Options are:
+    -n: dump native heap instead of managed heap
+    --user <USER_ID> | current: When supplying a process name,
+        specify user of process to dump; uses current user if not specified.
+
+am set-debug-app: set application <PACKAGE> to debug.  Options are:
+    -w: wait for debugger when application starts
+    --persistent: retain this value
+
+am clear-debug-app: clear the previously set-debug-app.
+
+am bug-report: request bug report generation; will launch UI
+    when done to select where it should be delivered.
+
+am monitor: start monitoring for crashes or ANRs.
+    --gdb: start gdbserv on the given port at crash/ANR
+
+am hang: hang the system.
+    --allow-restart: allow watchdog to perform normal system restart
+
+am restart: restart the user-space system.
+
+am idle-maintenance: perform idle maintenance now.
+
+am screen-compat: control screen compatibility mode of <PACKAGE>.
+
+am to-uri: print the given Intent specification as a URI.
+
+am to-intent-uri: print the given Intent specification as an intent: URI.
+
+am switch-user: switch to put USER_ID in the foreground, starting
+  execution of that user if it is currently stopped.
+
+am stop-user: stop execution of USER_ID, not allowing it to run any
+  code until a later explicit switch to it.
+
+am stack create: create a new stack relative to an existing one.
+   <TASK_ID>: the task to populate the new stack with. Must exist.
+   <RELATIVE_STACK_BOX_ID>: existing stack box's id.
+   <POSITION>: 0: before <RELATIVE_STACK_BOX_ID>, per RTL/LTR configuration,
+               1: after <RELATIVE_STACK_BOX_ID>, per RTL/LTR configuration,
+               2: to left of <RELATIVE_STACK_BOX_ID>,
+               3: to right of <RELATIVE_STACK_BOX_ID>,               4: above <RELATIVE_STACK_BOX_ID>, 5: below <RELATIVE_STACK_BOX_ID>
+   <WEIGHT>: float between 0.2 and 0.8 inclusive.
+
+am stack movetask: move <TASK_ID> from its current stack to the top (true) or   bottom (false) of <STACK_ID>.
+
+am stack resize: change <STACK_ID> relative size to new <WEIGHT>.
+
+am stack boxes: list the hierarchy of stack boxes and their contents.
+
+am stack box: list the hierarchy of stack boxes rooted at <STACK_BOX_ID>.
+
+<INTENT> specifications include these flags and arguments:
+    [-a <ACTION>] [-d <DATA_URI>] [-t <MIME_TYPE>]
+    [-c <CATEGORY> [-c <CATEGORY>] ...]
+    [-e|--es <EXTRA_KEY> <EXTRA_STRING_VALUE> ...]
+    [--esn <EXTRA_KEY> ...]
+    [--ez <EXTRA_KEY> <EXTRA_BOOLEAN_VALUE> ...]
+    [--ei <EXTRA_KEY> <EXTRA_INT_VALUE> ...]
+    [--el <EXTRA_KEY> <EXTRA_LONG_VALUE> ...]
+    [--ef <EXTRA_KEY> <EXTRA_FLOAT_VALUE> ...]
+    [--eu <EXTRA_KEY> <EXTRA_URI_VALUE> ...]
+    [--ecn <EXTRA_KEY> <EXTRA_COMPONENT_NAME_VALUE>]
+    [--eia <EXTRA_KEY> <EXTRA_INT_VALUE>[,<EXTRA_INT_VALUE...]]
+    [--ela <EXTRA_KEY> <EXTRA_LONG_VALUE>[,<EXTRA_LONG_VALUE...]]
+    [--efa <EXTRA_KEY> <EXTRA_FLOAT_VALUE>[,<EXTRA_FLOAT_VALUE...]]
+    [-n <COMPONENT>] [-f <FLAGS>]
+    [--grant-read-uri-permission] [--grant-write-uri-permission]
+    [--debug-log-resolution] [--exclude-stopped-packages]
+    [--include-stopped-packages]
+    [--activity-brought-to-front] [--activity-clear-top]
+    [--activity-clear-when-task-reset] [--activity-exclude-from-recents]
+    [--activity-launched-from-history] [--activity-multiple-task]
+    [--activity-no-animation] [--activity-no-history]
+    [--activity-no-user-action] [--activity-previous-is-top]
+    [--activity-reorder-to-front] [--activity-reset-task-if-needed]
+    [--activity-single-top] [--activity-clear-task]
+    [--activity-task-on-home]
+    [--receiver-registered-only] [--receiver-replace-pending]
+    [--selector]
+    [<URI> | <PACKAGE> | <COMPONENT>]
+
+
+Error: Bad component name: com.cubic.choosecar/
+?????APK运行失败?????
+Success
+总运行时间: 93
+**********************************************************************************
+****************************************任务99*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/AB5136700E283B31B16B0D21B123E903.apk?fsname=com.nice.main_5.1.8_159.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.nice.main' versionCode='159' versionName='5.1.8'
+launchable-activity: name='com.nice.main.activities.MainActivity_'  label='' icon=''
+com.nice.main
+com.nice.main.activities.MainActivity_
+======尝试安装APK======
+error: device '48db50a5b827' not found
+?????APK安装失败?????
+error: device '48db50a5b827' not found
+- waiting for device -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

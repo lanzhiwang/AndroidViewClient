@@ -1,0 +1,80 @@
+**********************************************************************************
+****************************************任务5*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/EA30130B5732496B7743E79A9C8DD95B.apk?fsname=com.qzone_7.9.2.288_111.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.qzone' versionCode='111' versionName='7.9.2.288' platformBuildVersionName='6.0-2704002'
+launchable-activity: name='com.tencent.sc.activity.SplashActivity'  label='' icon=''
+com.qzone
+com.tencent.sc.activity.SplashActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.qzone/com.tencent.sc.activity.SplashActivity }
+======APK运行成功======
+======第一次进入APK后的界面======
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.widget.RelativeLayout com.qzone:id/loginpage  (360, 592)
+      android.widget.EditText com.qzone:id/qqId QQ号/手机号/邮箱 (360, 630)
+      android.widget.EditText com.qzone:id/passWord  (360, 710)
+      android.widget.Button com.qzone:id/login_btn 登录 (360, 866)
+      android.widget.Button com.qzone:id/forget_password_tv 找回密码 (76, 1150)
+      android.widget.Button com.qzone:id/reg_tv 新用户 (658, 1150)
+======需要登录操作，退出======
+Success
+总运行时间: 124
+**********************************************************************************
+****************************************任务19*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/C537EDA5D099BE4D57B558F481BB07C6.apk?fsname=com.moxiu.launcher_6.4.26_669.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.moxiu.launcher' versionCode='669' versionName='6.4.26' platformBuildVersionName='6.0-2704002'
+launchable-activity: name='com.moxiu.market.activity.PreloadPluginActivity'  label='魔秀主题' icon='r/a2/moxiu_sense.png'
+launchable-activity: name='com.moxiu.launcher.Launcher'  label='' icon=''
+com.moxiu.launcher
+com.moxiu.market.activity.PreloadPluginActivity com.moxiu.launcher.Launcher
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] pkg=com.moxiu.launcher.Launcher cmp=com.moxiu.launcher/com.moxiu.market.activity.PreloadPluginActivity }
+======APK运行成功======
+======第一次进入APK后的界面======
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+android.widget.FrameLayout   (359, 616)
+   android.widget.TextView com.moxiu.launcher:id/a39 登录签到送现金啦，听说越早领的现金越多哦~ (359, 717)
+   android.widget.TextView com.moxiu.launcher:id/j8 取消 (233, 861)
+   android.widget.TextView com.moxiu.launcher:id/oh 登录 (485, 861)
+======需要登录操作，退出======
+Success
+总运行时间: 67
+**********************************************************************************
+****************************************任务25*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/73F4EF788A067F67FB48B1C5189C2024.apk?fsname=com.tencent.qqlite_3.7.0_184.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.tencent.qqlite' versionCode='184' versionName='3.7.0'
+launchable-activity: name='com.tencent.mobileqq.activity.SplashActivity'  label='QQLite' icon=''
+com.tencent.qqlite
+com.tencent.mobileqq.activity.SplashActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.tencent.qqlite/com.tencent.mobileqq.activity.SplashActivity }
+======APK运行成功======
+======第一次进入APK后的界面======
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.widget.Button com.tencent.qqlite:id/btn_login 登 录 (185, 1051)
+   android.widget.Button com.tencent.qqlite:id/btn_register 新用户 (535, 1051)
+======需要登录操作，退出======
+Success
+总运行时间: 69
+
+

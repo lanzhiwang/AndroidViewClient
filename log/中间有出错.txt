@@ -1,0 +1,1083 @@
+=================中间有出错
+**********************************************************************************
+****************************************任务27*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/600CAFB8B2138BA3049654DB565254F7.apk?fsname=cn.eclicks.wzsearch_7.0.6_216.apk&csr=9dcc
+======解析APK相关信息======
+package: name='cn.eclicks.wzsearch' versionCode='216' versionName='7.0.6'
+launchable-activity: name='cn.eclicks.wzsearch.ui.StartPageActivity'  label='车轮' icon=''
+cn.eclicks.wzsearch
+cn.eclicks.wzsearch.ui.StartPageActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=cn.eclicks.wzsearch/.ui.StartPageActivity }
+======APK运行成功======
+======第一次进入APK后的界面======
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+======设置相关权限页面======
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 车轮需要读取您的位置信息。 (245, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (11) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+502
+757
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView cn.eclicks.wzsearch:id/into  (360, 1068)
+
+
+======初步计算界面返回信息的行数======
+dos2unix: converting file ./apk_temp/count_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView cn.eclicks.wzsearch:id/into  (360, 1068)
+2
+======从右向左滑动======
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView cn.eclicks.wzsearch:id/into  (360, 1068)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView cn.eclicks.wzsearch:id/into  (360, 1068)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView cn.eclicks.wzsearch:id/into  (360, 1068)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView cn.eclicks.wzsearch:id/into  (360, 1068)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView cn.eclicks.wzsearch:id/into  (360, 1068)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView cn.eclicks.wzsearch:id/into  (360, 1068)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView cn.eclicks.wzsearch:id/into  (360, 1068)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView cn.eclicks.wzsearch:id/into  (360, 1068)
+完成授权和滑动后的页面
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView cn.eclicks.wzsearch:id/into  (360, 1068)
+
+
+======APK主界面======
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView cn.eclicks.wzsearch:id/into  (360, 1068)
+Success
+======卸载APK后的界面======
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 18 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 00 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 34 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 18 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 00 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 34 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+总运行时间: 207
+执行命令时间: 182
+**********************************************************************************
+****************************************任务39*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/0C50AAD7287263ED15B7D4DBBCE49550.apk?fsname=com.kuaikan.comic_5.8.0_58000.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.kuaikan.comic' versionCode='58000' versionName='5.8.0'
+launchable-activity: name='com.kuaikan.comic.ui.LaunchActivity'  label='快看漫画' icon=''
+com.kuaikan.comic
+com.kuaikan.comic.ui.LaunchActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.kuaikan.comic/.ui.LaunchActivity }
+======APK运行成功======
+======第一次进入APK后的界面======
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 快看漫画需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (13) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+======设置相关权限页面======
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 快看漫画需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (8) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+502
+757
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+
+
+======初步计算界面返回信息的行数======
+dos2unix: converting file ./apk_temp/count_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.kuaikan.comic:id/btn_male  (192, 1013)
+   android.widget.ImageView com.kuaikan.comic:id/btn_female  (528, 1013)
+3
+======从右向左滑动======
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.kuaikan.comic:id/btn_male  (192, 1013)
+   android.widget.ImageView com.kuaikan.comic:id/btn_female  (528, 1013)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.kuaikan.comic:id/btn_male  (192, 1013)
+   android.widget.ImageView com.kuaikan.comic:id/btn_female  (528, 1013)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.kuaikan.comic:id/btn_male  (192, 1013)
+   android.widget.ImageView com.kuaikan.comic:id/btn_female  (528, 1013)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.kuaikan.comic:id/btn_male  (192, 1013)
+   android.widget.ImageView com.kuaikan.comic:id/btn_female  (528, 1013)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.kuaikan.comic:id/btn_male  (192, 1013)
+   android.widget.ImageView com.kuaikan.comic:id/btn_female  (528, 1013)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.kuaikan.comic:id/btn_male  (192, 1013)
+   android.widget.ImageView com.kuaikan.comic:id/btn_female  (528, 1013)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.kuaikan.comic:id/btn_male  (192, 1013)
+   android.widget.ImageView com.kuaikan.comic:id/btn_female  (528, 1013)
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.kuaikan.comic:id/btn_male  (192, 1013)
+   android.widget.ImageView com.kuaikan.comic:id/btn_female  (528, 1013)
+完成授权和滑动后的页面
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.kuaikan.comic:id/btn_male  (192, 1013)
+   android.widget.ImageView com.kuaikan.comic:id/btn_female  (528, 1013)
+
+
+======APK主界面======
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.kuaikan.comic:id/btn_male  (192, 1013)
+   android.widget.ImageView com.kuaikan.comic:id/btn_female  (528, 1013)
+Success
+======卸载APK后的界面======
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 18 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 41 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 33 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 18 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 41 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 33 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+总运行时间: 226
+执行命令时间: 201
+**********************************************************************************
+****************************************任务45*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/5D129C65BE8CCA7D515B90F173E53F0F.apk?fsname=so.ofo.labofo_3.6.0_17049.apk&csr=9dcc
+======解析APK相关信息======
+package: name='so.ofo.labofo' versionCode='17049' versionName='3.6.0' platformBuildVersionName='8.0.0'
+launchable-activity: name='so.ofo.labofo.activities.EntryActivity'  label='ofo bicycle' icon='res/mipmap-hdpi-v4/application_icon.png'
+so.ofo.labofo
+so.ofo.labofo.activities.EntryActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=so.ofo.labofo/.activities.EntryActivity }
+======APK运行成功======
+======第一次进入APK后的界面======
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 共享单车需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (5) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+======设置相关权限页面======
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+
+
+======初步计算界面返回信息的行数======
+dos2unix: converting file ./apk_temp/count_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 共享单车需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (9) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+7
+======从右向左滑动======
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 共享单车需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (4) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 共享单车需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (12) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 共享单车需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (4) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 共享单车需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (12) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 共享单车需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (5) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 共享单车需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (12) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 共享单车需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (5) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 共享单车需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (14) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+完成授权和滑动后的页面
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 共享单车需要读取您的位置信息。 (271, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (6) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+502
+757
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.widget.ScrollView   (360, 617)
+      android.widget.LinearLayout so.ofo.labofo:id/ll_login_page  (360, 617)
+         android.widget.ImageView so.ofo.labofo:id/iv_quit_login  (666, 109)
+         android.widget.TextView so.ofo.labofo:id/tv_welcome_tip 欢迎你 (138, 288)
+         android.widget.EditText so.ofo.labofo:id/et_account_input_box 输入手机号 (365, 450)
+         android.widget.TextView so.ofo.labofo:id/tv_continue 下一步 (365, 617)
+         android.widget.TextView  第三方账号登录 (365, 966)
+         android.widget.ImageView so.ofo.labofo:id/goLoginWithQQ  (285, 1084)
+         android.widget.ImageView so.ofo.labofo:id/goLoginWithWechat  (445, 1084)
+
+
+======APK主界面======
+android.widget.FrameLayout   (360, 592)
+   android.widget.ScrollView   (360, 617)
+      android.widget.LinearLayout so.ofo.labofo:id/ll_login_page  (360, 617)
+         android.widget.ImageView so.ofo.labofo:id/iv_quit_login  (666, 109)
+         android.widget.TextView so.ofo.labofo:id/tv_welcome_tip 欢迎你 (138, 288)
+         android.widget.EditText so.ofo.labofo:id/et_account_input_box 输入手机号 (365, 450)
+         android.widget.TextView so.ofo.labofo:id/tv_continue 下一步 (365, 617)
+         android.widget.TextView  第三方账号登录 (365, 966)
+         android.widget.ImageView so.ofo.labofo:id/goLoginWithQQ  (285, 1084)
+         android.widget.ImageView so.ofo.labofo:id/goLoginWithWechat  (445, 1084)
+Success
+======卸载APK后的界面======
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 18 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 59 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 30 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 18 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 59 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 30 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+总运行时间: 217
+执行命令时间: 192
+**********************************************************************************
+****************************************任务57*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/3BE2C5012B372680E521FB2D6D0522E2.apk?fsname=com.lanjingren.ivwen_4.5.1_95.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.lanjingren.ivwen' versionCode='95' versionName='4.5.1' platformBuildVersionName='8.1.0'
+launchable-activity: name='com.lanjingren.ivwen.ui.advertising.OpeningScreenAdvertisingActivity'  label='' icon=''
+com.lanjingren.ivwen
+com.lanjingren.ivwen.ui.advertising.OpeningScreenAdvertisingActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.lanjingren.ivwen/.ui.advertising.OpeningScreenAdvertisingActivity }
+======APK运行成功======
+======第一次进入APK后的界面======
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 美篇需要读取您的位置信息。 (245, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (10) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+======设置相关权限页面======
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 美篇需要读取您的位置信息。 (245, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (5) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+502
+757
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+
+
+======初步计算界面返回信息的行数======
+dos2unix: converting file ./apk_temp/count_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_slogan 记录美好 分享感动 (359, 411)
+   android.widget.ImageView com.lanjingren.ivwen:id/closeView  (52, 150)
+   android.widget.RelativeLayout com.lanjingren.ivwen:id/button_phone_max  (360, 714)
+      android.widget.TextView  手机登录 (391, 714)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_other 其他方式登录 (360, 877)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/button_weibo  (252, 986)
+      android.widget.TextView  微博登录 (252, 1018)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/rl_ivwen  (466, 986)
+      android.widget.TextView  美篇账号 (466, 1018)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_left 登录即表示同意 (272, 1137)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_right 《美篇用户协议》 (437, 1137)
+12
+======从右向左滑动======
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_slogan 记录美好 分享感动 (359, 411)
+   android.widget.ImageView com.lanjingren.ivwen:id/closeView  (52, 150)
+   android.widget.RelativeLayout com.lanjingren.ivwen:id/button_phone_max  (360, 714)
+      android.widget.TextView  手机登录 (391, 714)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_other 其他方式登录 (360, 877)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/button_weibo  (252, 986)
+      android.widget.TextView  微博登录 (252, 1018)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/rl_ivwen  (466, 986)
+      android.widget.TextView  美篇账号 (466, 1018)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_left 登录即表示同意 (272, 1137)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_right 《美篇用户协议》 (437, 1137)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_slogan 记录美好 分享感动 (359, 411)
+   android.widget.ImageView com.lanjingren.ivwen:id/closeView  (52, 150)
+   android.widget.RelativeLayout com.lanjingren.ivwen:id/button_phone_max  (360, 714)
+      android.widget.TextView  手机登录 (391, 714)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_other 其他方式登录 (360, 877)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/button_weibo  (252, 986)
+      android.widget.TextView  微博登录 (252, 1018)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/rl_ivwen  (466, 986)
+      android.widget.TextView  美篇账号 (466, 1018)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_left 登录即表示同意 (272, 1137)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_right 《美篇用户协议》 (437, 1137)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_slogan 记录美好 分享感动 (359, 411)
+   android.widget.ImageView com.lanjingren.ivwen:id/closeView  (52, 150)
+   android.widget.RelativeLayout com.lanjingren.ivwen:id/button_phone_max  (360, 714)
+      android.widget.TextView  手机登录 (391, 714)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_other 其他方式登录 (360, 877)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/button_weibo  (252, 986)
+      android.widget.TextView  微博登录 (252, 1018)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/rl_ivwen  (466, 986)
+      android.widget.TextView  美篇账号 (466, 1018)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_left 登录即表示同意 (272, 1137)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_right 《美篇用户协议》 (437, 1137)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_slogan 记录美好 分享感动 (359, 411)
+   android.widget.ImageView com.lanjingren.ivwen:id/closeView  (52, 150)
+   android.widget.RelativeLayout com.lanjingren.ivwen:id/button_phone_max  (360, 714)
+      android.widget.TextView  手机登录 (391, 714)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_other 其他方式登录 (360, 877)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/button_weibo  (252, 986)
+      android.widget.TextView  微博登录 (252, 1018)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/rl_ivwen  (466, 986)
+      android.widget.TextView  美篇账号 (466, 1018)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_left 登录即表示同意 (272, 1137)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_right 《美篇用户协议》 (437, 1137)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_slogan 记录美好 分享感动 (359, 411)
+   android.widget.ImageView com.lanjingren.ivwen:id/closeView  (52, 150)
+   android.widget.RelativeLayout com.lanjingren.ivwen:id/button_phone_max  (360, 714)
+      android.widget.TextView  手机登录 (391, 714)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_other 其他方式登录 (360, 877)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/button_weibo  (252, 986)
+      android.widget.TextView  微博登录 (252, 1018)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/rl_ivwen  (466, 986)
+      android.widget.TextView  美篇账号 (466, 1018)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_left 登录即表示同意 (272, 1137)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_right 《美篇用户协议》 (437, 1137)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_slogan 记录美好 分享感动 (359, 411)
+   android.widget.ImageView com.lanjingren.ivwen:id/closeView  (52, 150)
+   android.widget.RelativeLayout com.lanjingren.ivwen:id/button_phone_max  (360, 714)
+      android.widget.TextView  手机登录 (391, 714)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_other 其他方式登录 (360, 877)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/button_weibo  (252, 986)
+      android.widget.TextView  微博登录 (252, 1018)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/rl_ivwen  (466, 986)
+      android.widget.TextView  美篇账号 (466, 1018)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_left 登录即表示同意 (272, 1137)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_right 《美篇用户协议》 (437, 1137)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_slogan 记录美好 分享感动 (359, 411)
+   android.widget.ImageView com.lanjingren.ivwen:id/closeView  (52, 150)
+   android.widget.RelativeLayout com.lanjingren.ivwen:id/button_phone_max  (360, 714)
+      android.widget.TextView  手机登录 (391, 714)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_other 其他方式登录 (360, 877)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/button_weibo  (252, 986)
+      android.widget.TextView  微博登录 (252, 1018)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/rl_ivwen  (466, 986)
+      android.widget.TextView  美篇账号 (466, 1018)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_left 登录即表示同意 (272, 1137)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_right 《美篇用户协议》 (437, 1137)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_slogan 记录美好 分享感动 (359, 411)
+   android.widget.ImageView com.lanjingren.ivwen:id/closeView  (52, 150)
+   android.widget.RelativeLayout com.lanjingren.ivwen:id/button_phone_max  (360, 714)
+      android.widget.TextView  手机登录 (391, 714)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_other 其他方式登录 (360, 877)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/button_weibo  (252, 986)
+      android.widget.TextView  微博登录 (252, 1018)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/rl_ivwen  (466, 986)
+      android.widget.TextView  美篇账号 (466, 1018)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_left 登录即表示同意 (272, 1137)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_right 《美篇用户协议》 (437, 1137)
+完成授权和滑动后的页面
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_slogan 记录美好 分享感动 (359, 411)
+   android.widget.ImageView com.lanjingren.ivwen:id/closeView  (52, 150)
+   android.widget.RelativeLayout com.lanjingren.ivwen:id/button_phone_max  (360, 714)
+      android.widget.TextView  手机登录 (391, 714)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_other 其他方式登录 (360, 877)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/button_weibo  (252, 986)
+      android.widget.TextView  微博登录 (252, 1018)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/rl_ivwen  (466, 986)
+      android.widget.TextView  美篇账号 (466, 1018)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_left 登录即表示同意 (272, 1137)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_right 《美篇用户协议》 (437, 1137)
+
+
+======APK主界面======
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_slogan 记录美好 分享感动 (359, 411)
+   android.widget.ImageView com.lanjingren.ivwen:id/closeView  (52, 150)
+   android.widget.RelativeLayout com.lanjingren.ivwen:id/button_phone_max  (360, 714)
+      android.widget.TextView  手机登录 (391, 714)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_other 其他方式登录 (360, 877)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/button_weibo  (252, 986)
+      android.widget.TextView  微博登录 (252, 1018)
+   android.widget.LinearLayout com.lanjingren.ivwen:id/rl_ivwen  (466, 986)
+      android.widget.TextView  美篇账号 (466, 1018)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_left 登录即表示同意 (272, 1137)
+   android.widget.TextView com.lanjingren.ivwen:id/tv_agreement_right 《美篇用户协议》 (437, 1137)
+Success
+======卸载APK后的界面======
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 19 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 32 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 28 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 19 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 32 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 28 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+总运行时间: 212
+执行命令时间: 187
+**********************************************************************************
+****************************************任务78*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/22A376D6FBD2B863552712787A948775.apk?fsname=com.baidu.lbs.waimai_5.1.0_136.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.baidu.lbs.waimai' versionCode='136' versionName='5.1.0' platformBuildVersionName='8.0.0'
+launchable-activity: name='com.baidu.lbs.waimai.SplashActivity'  label='百度外卖' icon=''
+com.baidu.lbs.waimai
+com.baidu.lbs.waimai.SplashActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.baidu.lbs.waimai/.SplashActivity }
+======APK运行成功======
+======第一次进入APK后的界面======
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 百度外卖-美食品质外卖需要读取您的位置信息。 (352, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (11) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+======设置相关权限页面======
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 百度外卖-美食品质外卖需要读取您的位置信息。 (352, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (6) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+502
+757
+Traceback (most recent call last):
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/bin/dump", line 219, in <module>
+    vc.dump(window=options[WINDOW])
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3342, in dump
+    self.setViewsFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 2983, in setViewsFromUiAutomatorDump
+    self.__parseTreeFromUiAutomatorDump(received)
+  File "/home/lanzhiwang/project_runtime/AndroidViewClient/local/lib/python2.7/site-packages/com/dtmilano/android/viewclient.py", line 3165, in __parseTreeFromUiAutomatorDump
+    raise ValueError("received does not contain valid XML: " + receivedXml)
+ValueError: received does not contain valid XML: ERROR: null root node returned by UiTestAutomationBridge.
+
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+
+
+======初步计算界面返回信息的行数======
+dos2unix: converting file ./apk_temp/count_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_title 是否升级到 5.2.6 版本? (360, 419)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_info_text 【本次更新】
+配送升级，蜂鸟专送很贴心
+大牌入驻，精致美食随心享
+号码保护，隐私安全有保障
+细节优化，品质体验更精彩 (360, 602)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_button_right 立即更新 (360, 800)
+   android.widget.ImageView com.baidu.lbs.waimai:id/dialog_close  (360, 1004)
+9
+======从右向左滑动======
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_title 是否升级到 5.2.6 版本? (360, 419)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_info_text 【本次更新】
+配送升级，蜂鸟专送很贴心
+大牌入驻，精致美食随心享
+号码保护，隐私安全有保障
+细节优化，品质体验更精彩 (360, 602)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_button_right 立即更新 (360, 800)
+   android.widget.ImageView com.baidu.lbs.waimai:id/dialog_close  (360, 1004)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_title 是否升级到 5.2.6 版本? (360, 419)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_info_text 【本次更新】
+配送升级，蜂鸟专送很贴心
+大牌入驻，精致美食随心享
+号码保护，隐私安全有保障
+细节优化，品质体验更精彩 (360, 602)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_button_right 立即更新 (360, 800)
+   android.widget.ImageView com.baidu.lbs.waimai:id/dialog_close  (360, 1004)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_title 是否升级到 5.2.6 版本? (360, 419)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_info_text 【本次更新】
+配送升级，蜂鸟专送很贴心
+大牌入驻，精致美食随心享
+号码保护，隐私安全有保障
+细节优化，品质体验更精彩 (360, 602)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_button_right 立即更新 (360, 800)
+   android.widget.ImageView com.baidu.lbs.waimai:id/dialog_close  (360, 1004)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_title 是否升级到 5.2.6 版本? (360, 419)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_info_text 【本次更新】
+配送升级，蜂鸟专送很贴心
+大牌入驻，精致美食随心享
+号码保护，隐私安全有保障
+细节优化，品质体验更精彩 (360, 602)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_button_right 立即更新 (360, 800)
+   android.widget.ImageView com.baidu.lbs.waimai:id/dialog_close  (360, 1004)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_title 是否升级到 5.2.6 版本? (360, 419)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_info_text 【本次更新】
+配送升级，蜂鸟专送很贴心
+大牌入驻，精致美食随心享
+号码保护，隐私安全有保障
+细节优化，品质体验更精彩 (360, 602)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_button_right 立即更新 (360, 800)
+   android.widget.ImageView com.baidu.lbs.waimai:id/dialog_close  (360, 1004)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_title 是否升级到 5.2.6 版本? (360, 419)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_info_text 【本次更新】
+配送升级，蜂鸟专送很贴心
+大牌入驻，精致美食随心享
+号码保护，隐私安全有保障
+细节优化，品质体验更精彩 (360, 602)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_button_right 立即更新 (360, 800)
+   android.widget.ImageView com.baidu.lbs.waimai:id/dialog_close  (360, 1004)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_title 是否升级到 5.2.6 版本? (360, 419)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_info_text 【本次更新】
+配送升级，蜂鸟专送很贴心
+大牌入驻，精致美食随心享
+号码保护，隐私安全有保障
+细节优化，品质体验更精彩 (360, 602)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_button_right 立即更新 (360, 800)
+   android.widget.ImageView com.baidu.lbs.waimai:id/dialog_close  (360, 1004)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_title 是否升级到 5.2.6 版本? (360, 419)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_info_text 【本次更新】
+配送升级，蜂鸟专送很贴心
+大牌入驻，精致美食随心享
+号码保护，隐私安全有保障
+细节优化，品质体验更精彩 (360, 602)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_button_right 立即更新 (360, 800)
+   android.widget.ImageView com.baidu.lbs.waimai:id/dialog_close  (360, 1004)
+完成授权和滑动后的页面
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_title 是否升级到 5.2.6 版本? (360, 419)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_info_text 【本次更新】
+配送升级，蜂鸟专送很贴心
+大牌入驻，精致美食随心享
+号码保护，隐私安全有保障
+细节优化，品质体验更精彩 (360, 602)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_button_right 立即更新 (360, 800)
+   android.widget.ImageView com.baidu.lbs.waimai:id/dialog_close  (360, 1004)
+
+
+======APK主界面======
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_title 是否升级到 5.2.6 版本? (360, 419)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_info_text 【本次更新】
+配送升级，蜂鸟专送很贴心
+大牌入驻，精致美食随心享
+号码保护，隐私安全有保障
+细节优化，品质体验更精彩 (360, 602)
+   android.widget.TextView com.baidu.lbs.waimai:id/dialog_button_right 立即更新 (360, 800)
+   android.widget.ImageView com.baidu.lbs.waimai:id/dialog_close  (360, 1004)
+Success
+======卸载APK后的界面======
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 20 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 33 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 26 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 20 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 33 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 26 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+总运行时间: 188
+执行命令时间: 163
+
+
+

@@ -1,0 +1,986 @@
+=================版本升级
+**********************************************************************************
+****************************************任务17*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/B356A032AF837A5C3F92669E50866466.apk?fsname=com.ss.android.ugc.live_4.2.0_420.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.ss.android.ugc.live' versionCode='420' versionName='4.2.0' platformBuildVersionName='8.0.0'
+launchable-activity: name='com.ss.android.ugc.live.main.MainActivity'  label='' icon=''
+com.ss.android.ugc.live
+com.ss.android.ugc.live.main.MainActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.ss.android.ugc.live/.main.MainActivity }
+======APK运行成功======
+======第一次进入APK后的界面======
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 火山小视频需要读取您的位置信息。 (284, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (4) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+======设置相关权限页面======
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView android:id/alertTitle 读取位置信息 (360, 464)
+   android.widget.TextView com.huawei.systemmanager:id/tv_hold_dialog_warning_message 火山小视频需要读取您的位置信息。 (284, 553)
+   android.widget.TextView com.huawei.systemmanager:id/tv_tip 您可以在“手机管家”>“权限管理”中配置权限。 (335, 594)
+   android.widget.CheckBox com.huawei.systemmanager:id/hold_checkbox 记住我的选择 (182, 669)
+   android.widget.Button com.huawei.systemmanager:id/btn_forbbid 禁止 (13) (218, 757)
+   android.widget.Button com.huawei.systemmanager:id/btn_allow 允许 (502, 757)
+502
+757
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ss.android.ugc.live:id/apl 火山又更新啦 (360, 406)
+   android.widget.ScrollView   (360, 572)
+      android.widget.TextView com.ss.android.ugc.live:id/vj 优化产品体验
+修复了一些问题
+ (360, 529)
+   android.widget.FrameLayout com.ss.android.ugc.live:id/apn  (360, 754)
+      android.widget.TextView com.ss.android.ugc.live:id/apq 立即
+升级 (359, 754)
+   android.widget.TextView com.ss.android.ugc.live:id/apt 以后再说 (360, 913)
+
+
+======初步计算界面返回信息的行数======
+dos2unix: converting file ./apk_temp/count_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ss.android.ugc.live:id/apl 火山又更新啦 (360, 406)
+   android.widget.ScrollView   (360, 572)
+      android.widget.TextView com.ss.android.ugc.live:id/vj 优化产品体验
+修复了一些问题
+ (360, 529)
+   android.widget.FrameLayout com.ss.android.ugc.live:id/apn  (360, 754)
+      android.widget.TextView com.ss.android.ugc.live:id/apq 立即
+升级 (359, 754)
+   android.widget.TextView com.ss.android.ugc.live:id/apt 以后再说 (360, 913)
+10
+======从右向左滑动======
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ss.android.ugc.live:id/apl 火山又更新啦 (360, 406)
+   android.widget.ScrollView   (360, 572)
+      android.widget.TextView com.ss.android.ugc.live:id/vj 优化产品体验
+修复了一些问题
+ (360, 529)
+   android.widget.FrameLayout com.ss.android.ugc.live:id/apn  (360, 754)
+      android.widget.TextView com.ss.android.ugc.live:id/apq 立即
+升级 (359, 754)
+   android.widget.TextView com.ss.android.ugc.live:id/apt 以后再说 (360, 913)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ss.android.ugc.live:id/apl 火山又更新啦 (360, 406)
+   android.widget.ScrollView   (360, 572)
+      android.widget.TextView com.ss.android.ugc.live:id/vj 优化产品体验
+修复了一些问题
+ (360, 529)
+   android.widget.FrameLayout com.ss.android.ugc.live:id/apn  (360, 754)
+      android.widget.TextView com.ss.android.ugc.live:id/apq 立即
+升级 (359, 754)
+   android.widget.TextView com.ss.android.ugc.live:id/apt 以后再说 (360, 913)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ss.android.ugc.live:id/apl 火山又更新啦 (360, 406)
+   android.widget.ScrollView   (360, 572)
+      android.widget.TextView com.ss.android.ugc.live:id/vj 优化产品体验
+修复了一些问题
+ (360, 529)
+   android.widget.FrameLayout com.ss.android.ugc.live:id/apn  (360, 754)
+      android.widget.TextView com.ss.android.ugc.live:id/apq 立即
+升级 (359, 754)
+   android.widget.TextView com.ss.android.ugc.live:id/apt 以后再说 (360, 913)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ss.android.ugc.live:id/apl 火山又更新啦 (360, 406)
+   android.widget.ScrollView   (360, 572)
+      android.widget.TextView com.ss.android.ugc.live:id/vj 优化产品体验
+修复了一些问题
+ (360, 529)
+   android.widget.FrameLayout com.ss.android.ugc.live:id/apn  (360, 754)
+      android.widget.TextView com.ss.android.ugc.live:id/apq 立即
+升级 (359, 754)
+   android.widget.TextView com.ss.android.ugc.live:id/apt 以后再说 (360, 913)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ss.android.ugc.live:id/apl 火山又更新啦 (360, 406)
+   android.widget.ScrollView   (360, 572)
+      android.widget.TextView com.ss.android.ugc.live:id/vj 优化产品体验
+修复了一些问题
+ (360, 529)
+   android.widget.FrameLayout com.ss.android.ugc.live:id/apn  (360, 754)
+      android.widget.TextView com.ss.android.ugc.live:id/apq 立即
+升级 (359, 754)
+   android.widget.TextView com.ss.android.ugc.live:id/apt 以后再说 (360, 913)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ss.android.ugc.live:id/apl 火山又更新啦 (360, 406)
+   android.widget.ScrollView   (360, 572)
+      android.widget.TextView com.ss.android.ugc.live:id/vj 优化产品体验
+修复了一些问题
+ (360, 529)
+   android.widget.FrameLayout com.ss.android.ugc.live:id/apn  (360, 754)
+      android.widget.TextView com.ss.android.ugc.live:id/apq 立即
+升级 (359, 754)
+   android.widget.TextView com.ss.android.ugc.live:id/apt 以后再说 (360, 913)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ss.android.ugc.live:id/apl 火山又更新啦 (360, 406)
+   android.widget.ScrollView   (360, 572)
+      android.widget.TextView com.ss.android.ugc.live:id/vj 优化产品体验
+修复了一些问题
+ (360, 529)
+   android.widget.FrameLayout com.ss.android.ugc.live:id/apn  (360, 754)
+      android.widget.TextView com.ss.android.ugc.live:id/apq 立即
+升级 (359, 754)
+   android.widget.TextView com.ss.android.ugc.live:id/apt 以后再说 (360, 913)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ss.android.ugc.live:id/apl 火山又更新啦 (360, 406)
+   android.widget.ScrollView   (360, 572)
+      android.widget.TextView com.ss.android.ugc.live:id/vj 优化产品体验
+修复了一些问题
+ (360, 529)
+   android.widget.FrameLayout com.ss.android.ugc.live:id/apn  (360, 754)
+      android.widget.TextView com.ss.android.ugc.live:id/apq 立即
+升级 (359, 754)
+   android.widget.TextView com.ss.android.ugc.live:id/apt 以后再说 (360, 913)
+完成授权和滑动后的页面
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ss.android.ugc.live:id/apl 火山又更新啦 (360, 406)
+   android.widget.ScrollView   (360, 572)
+      android.widget.TextView com.ss.android.ugc.live:id/vj 优化产品体验
+修复了一些问题
+ (360, 529)
+   android.widget.FrameLayout com.ss.android.ugc.live:id/apn  (360, 754)
+      android.widget.TextView com.ss.android.ugc.live:id/apq 立即
+升级 (359, 754)
+   android.widget.TextView com.ss.android.ugc.live:id/apt 以后再说 (360, 913)
+
+
+======APK主界面======
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ss.android.ugc.live:id/apl 火山又更新啦 (360, 406)
+   android.widget.ScrollView   (360, 572)
+      android.widget.TextView com.ss.android.ugc.live:id/vj 优化产品体验
+修复了一些问题
+ (360, 529)
+   android.widget.FrameLayout com.ss.android.ugc.live:id/apn  (360, 754)
+      android.widget.TextView com.ss.android.ugc.live:id/apq 立即
+升级 (359, 754)
+   android.widget.TextView com.ss.android.ugc.live:id/apt 以后再说 (360, 913)
+Success
+======卸载APK后的界面======
+android.widget.FrameLayout   (360, 592)
+   android.widget.ImageView com.android.browser:id/titlebar_img_bookmark  (65, 98)
+   android.widget.ImageView com.android.browser:id/titlebar_img_lock  (131, 98)
+   android.widget.EditText com.android.browser:id/url 火山小视频卸载调查问卷 (379, 98)
+   android.widget.ImageView com.android.browser:id/titlebar_img_refresh  (668, 98)
+   android.webkit.WebView   (360, 606)
+   android.widget.RelativeLayout com.android.browser:id/bottombar_backward_layout  (120, 1124)
+      android.widget.ImageView com.android.browser:id/bt_back_img  (120, 1111)
+      android.widget.TextView com.android.browser:id/bt_back_txt 后退 (120, 1157)
+   android.widget.RelativeLayout com.android.browser:id/bottombar_forward_layout  (240, 1124)
+      android.widget.ImageView com.android.browser:id/bt_forward_img  (240, 1111)
+      android.widget.TextView com.android.browser:id/bt_forward_txt 前进 (240, 1157)
+   android.widget.RelativeLayout com.android.browser:id/bottombar_more_layout  (360, 1124)
+      android.widget.ImageView com.android.browser:id/bt_menu_img  (360, 1111)
+      android.widget.TextView com.android.browser:id/bt_menu_txt 菜单 (360, 1157)
+   android.widget.RelativeLayout com.android.browser:id/bottombar_home_layout  (480, 1124)
+      android.widget.ImageView com.android.browser:id/bt_home_img  (480, 1111)
+      android.widget.TextView com.android.browser:id/bt_home_txt 主页面 (480, 1157)
+   android.widget.RelativeLayout com.android.browser:id/bottombar_window_layout  (600, 1124)
+      android.widget.TextView com.android.browser:id/bt_windows_num_txt 1 (603, 1116)
+      android.widget.ImageView com.android.browser:id/bt_windows_img  (600, 1111)
+      android.widget.TextView com.android.browser:id/bt_windows_txt 多窗口 (600, 1157)
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 17 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 32 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 34 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+总运行时间: 189
+执行命令时间: 164
+**********************************************************************************
+****************************************任务33*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/0D6F0FDE6A15C6CA6A80C2ADAA0965DF.apk?fsname=cn.etouch.ecalendar_7.1.8_748.apk&csr=9dcc
+======解析APK相关信息======
+package: name='cn.etouch.ecalendar' versionCode='748' versionName='7.1.8' platformBuildVersionName='8.0.0'
+launchable-activity: name='cn.etouch.ecalendar.ECalendar'  label='中华万年历' icon=''
+cn.etouch.ecalendar
+cn.etouch.ecalendar.ECalendar
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=cn.etouch.ecalendar/.ECalendar }
+======APK运行成功======
+======第一次进入APK后的界面======
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView cn.etouch.ecalendar:id/text_title 发现新版本 (360, 386)
+   android.widget.ImageView cn.etouch.ecalendar:id/image_close  (631, 333)
+   android.widget.ScrollView   (360, 711)
+      android.widget.TextView cn.etouch.ecalendar:id/text_update_tips 1.修复bug，提升性能；
+2.优化用户体验，建议升级。
+ (360, 680)
+   android.widget.TextView cn.etouch.ecalendar:id/text_update 免费升级 (360, 885)
+   android.widget.TextView cn.etouch.ecalendar:id/text_default_tips 可在“工具-设置-检查更新”一键升级 (360, 976)
+======设置相关权限页面======
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView cn.etouch.ecalendar:id/text_title 发现新版本 (360, 386)
+   android.widget.ImageView cn.etouch.ecalendar:id/image_close  (631, 333)
+   android.widget.ScrollView   (360, 711)
+      android.widget.TextView cn.etouch.ecalendar:id/text_update_tips 1.修复bug，提升性能；
+2.优化用户体验，建议升级。
+ (360, 680)
+   android.widget.TextView cn.etouch.ecalendar:id/text_update 免费升级 (360, 885)
+   android.widget.TextView cn.etouch.ecalendar:id/text_default_tips 可在“工具-设置-检查更新”一键升级 (360, 976)
+
+
+======初步计算界面返回信息的行数======
+dos2unix: converting file ./apk_temp/count_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView cn.etouch.ecalendar:id/text_title 发现新版本 (360, 386)
+   android.widget.ImageView cn.etouch.ecalendar:id/image_close  (631, 333)
+   android.widget.ScrollView   (360, 711)
+      android.widget.TextView cn.etouch.ecalendar:id/text_update_tips 1.修复bug，提升性能；
+2.优化用户体验，建议升级。
+ (360, 680)
+   android.widget.TextView cn.etouch.ecalendar:id/text_update 免费升级 (360, 885)
+   android.widget.TextView cn.etouch.ecalendar:id/text_default_tips 可在“工具-设置-检查更新”一键升级 (360, 976)
+9
+======从右向左滑动======
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView cn.etouch.ecalendar:id/text_title 发现新版本 (360, 386)
+   android.widget.ImageView cn.etouch.ecalendar:id/image_close  (631, 333)
+   android.widget.ScrollView   (360, 711)
+      android.widget.TextView cn.etouch.ecalendar:id/text_update_tips 1.修复bug，提升性能；
+2.优化用户体验，建议升级。
+ (360, 680)
+   android.widget.TextView cn.etouch.ecalendar:id/text_update 免费升级 (360, 885)
+   android.widget.TextView cn.etouch.ecalendar:id/text_default_tips 可在“工具-设置-检查更新”一键升级 (360, 976)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView cn.etouch.ecalendar:id/text_title 发现新版本 (360, 386)
+   android.widget.ImageView cn.etouch.ecalendar:id/image_close  (631, 333)
+   android.widget.ScrollView   (360, 711)
+      android.widget.TextView cn.etouch.ecalendar:id/text_update_tips 1.修复bug，提升性能；
+2.优化用户体验，建议升级。
+ (360, 680)
+   android.widget.TextView cn.etouch.ecalendar:id/text_update 免费升级 (360, 885)
+   android.widget.TextView cn.etouch.ecalendar:id/text_default_tips 可在“工具-设置-检查更新”一键升级 (360, 976)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView cn.etouch.ecalendar:id/text_title 发现新版本 (360, 386)
+   android.widget.ImageView cn.etouch.ecalendar:id/image_close  (631, 333)
+   android.widget.ScrollView   (360, 711)
+      android.widget.TextView cn.etouch.ecalendar:id/text_update_tips 1.修复bug，提升性能；
+2.优化用户体验，建议升级。
+ (360, 680)
+   android.widget.TextView cn.etouch.ecalendar:id/text_update 免费升级 (360, 885)
+   android.widget.TextView cn.etouch.ecalendar:id/text_default_tips 可在“工具-设置-检查更新”一键升级 (360, 976)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView cn.etouch.ecalendar:id/text_title 发现新版本 (360, 386)
+   android.widget.ImageView cn.etouch.ecalendar:id/image_close  (631, 333)
+   android.widget.ScrollView   (360, 711)
+      android.widget.TextView cn.etouch.ecalendar:id/text_update_tips 1.修复bug，提升性能；
+2.优化用户体验，建议升级。
+ (360, 680)
+   android.widget.TextView cn.etouch.ecalendar:id/text_update 免费升级 (360, 885)
+   android.widget.TextView cn.etouch.ecalendar:id/text_default_tips 可在“工具-设置-检查更新”一键升级 (360, 976)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView cn.etouch.ecalendar:id/text_title 发现新版本 (360, 386)
+   android.widget.ImageView cn.etouch.ecalendar:id/image_close  (631, 333)
+   android.widget.ScrollView   (360, 711)
+      android.widget.TextView cn.etouch.ecalendar:id/text_update_tips 1.修复bug，提升性能；
+2.优化用户体验，建议升级。
+ (360, 680)
+   android.widget.TextView cn.etouch.ecalendar:id/text_update 免费升级 (360, 885)
+   android.widget.TextView cn.etouch.ecalendar:id/text_default_tips 可在“工具-设置-检查更新”一键升级 (360, 976)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView cn.etouch.ecalendar:id/text_title 发现新版本 (360, 386)
+   android.widget.ImageView cn.etouch.ecalendar:id/image_close  (631, 333)
+   android.widget.ScrollView   (360, 711)
+      android.widget.TextView cn.etouch.ecalendar:id/text_update_tips 1.修复bug，提升性能；
+2.优化用户体验，建议升级。
+ (360, 680)
+   android.widget.TextView cn.etouch.ecalendar:id/text_update 免费升级 (360, 885)
+   android.widget.TextView cn.etouch.ecalendar:id/text_default_tips 可在“工具-设置-检查更新”一键升级 (360, 976)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView cn.etouch.ecalendar:id/text_title 发现新版本 (360, 386)
+   android.widget.ImageView cn.etouch.ecalendar:id/image_close  (631, 333)
+   android.widget.ScrollView   (360, 711)
+      android.widget.TextView cn.etouch.ecalendar:id/text_update_tips 1.修复bug，提升性能；
+2.优化用户体验，建议升级。
+ (360, 680)
+   android.widget.TextView cn.etouch.ecalendar:id/text_update 免费升级 (360, 885)
+   android.widget.TextView cn.etouch.ecalendar:id/text_default_tips 可在“工具-设置-检查更新”一键升级 (360, 976)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView cn.etouch.ecalendar:id/text_title 发现新版本 (360, 386)
+   android.widget.ImageView cn.etouch.ecalendar:id/image_close  (631, 333)
+   android.widget.ScrollView   (360, 711)
+      android.widget.TextView cn.etouch.ecalendar:id/text_update_tips 1.修复bug，提升性能；
+2.优化用户体验，建议升级。
+ (360, 680)
+   android.widget.TextView cn.etouch.ecalendar:id/text_update 免费升级 (360, 885)
+   android.widget.TextView cn.etouch.ecalendar:id/text_default_tips 可在“工具-设置-检查更新”一键升级 (360, 976)
+完成授权和滑动后的页面
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView cn.etouch.ecalendar:id/text_title 发现新版本 (360, 386)
+   android.widget.ImageView cn.etouch.ecalendar:id/image_close  (631, 333)
+   android.widget.ScrollView   (360, 711)
+      android.widget.TextView cn.etouch.ecalendar:id/text_update_tips 1.修复bug，提升性能；
+2.优化用户体验，建议升级。
+ (360, 680)
+   android.widget.TextView cn.etouch.ecalendar:id/text_update 免费升级 (360, 885)
+   android.widget.TextView cn.etouch.ecalendar:id/text_default_tips 可在“工具-设置-检查更新”一键升级 (360, 976)
+
+
+======APK主界面======
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView cn.etouch.ecalendar:id/text_title 发现新版本 (360, 386)
+   android.widget.ImageView cn.etouch.ecalendar:id/image_close  (631, 333)
+   android.widget.ScrollView   (360, 711)
+      android.widget.TextView cn.etouch.ecalendar:id/text_update_tips 1.修复bug，提升性能；
+2.优化用户体验，建议升级。
+ (360, 680)
+   android.widget.TextView cn.etouch.ecalendar:id/text_update 免费升级 (360, 885)
+   android.widget.TextView cn.etouch.ecalendar:id/text_default_tips 可在“工具-设置-检查更新”一键升级 (360, 976)
+Success
+======卸载APK后的界面======
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 18 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 20 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 34 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 18 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 20 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 34 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+总运行时间: 165
+执行命令时间: 140
+**********************************************************************************
+****************************************任务40*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/21FD231A0F2A3265C3792EA27551248B.apk?fsname=com.ct.client_6.6.0_6600.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.ct.client' versionCode='6600' versionName='6.6.0' platformBuildVersionName='8.0.0'
+launchable-activity: name='com.ct.client.SplashActivity'  label='Ct Client' icon=''
+com.ct.client
+com.ct.client.SplashActivity
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.ct.client/.SplashActivity }
+======APK运行成功======
+======第一次进入APK后的界面======
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ct.client:id/tv_title 温馨提示 (360, 723)
+   android.widget.TextView com.ct.client:id/tv_content 　　尊敬的用户，本应用需要建立数据连接，所产生的流量费用将根据您的套餐资费标准收取。应用程序将访问、传输手机号码、IMSI、用户位置信息等内容，并读取手机通讯录以及通话记录。详情资费请咨询10000。您是否同意? (360, 882)
+   android.widget.LinearLayout com.ct.client:id/ll_notice  (140, 1032)
+      android.widget.CheckBox com.ct.client:id/cb_nomore  (40, 1022)
+      android.widget.TextView com.ct.client:id/tv_notice_msg 下次不再提示 (171, 1022)
+   android.widget.Button com.ct.client:id/bt_no 不同意 (179, 1126)
+   android.widget.Button com.ct.client:id/bt_yes 同意 (541, 1126)
+======设置相关权限页面======
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ct.client:id/tv_title 温馨提示 (360, 723)
+   android.widget.TextView com.ct.client:id/tv_content 　　尊敬的用户，本应用需要建立数据连接，所产生的流量费用将根据您的套餐资费标准收取。应用程序将访问、传输手机号码、IMSI、用户位置信息等内容，并读取手机通讯录以及通话记录。详情资费请咨询10000。您是否同意? (360, 882)
+   android.widget.LinearLayout com.ct.client:id/ll_notice  (140, 1032)
+      android.widget.CheckBox com.ct.client:id/cb_nomore  (40, 1022)
+      android.widget.TextView com.ct.client:id/tv_notice_msg 下次不再提示 (171, 1022)
+   android.widget.Button com.ct.client:id/bt_no 不同意 (179, 1126)
+   android.widget.Button com.ct.client:id/bt_yes 同意 (541, 1126)
+541
+1126
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.ct.client:id/vPager  (360, 617)
+
+
+======初步计算界面返回信息的行数======
+dos2unix: converting file ./apk_temp/count_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.ct.client:id/vPager  (360, 617)
+2
+======从右向左滑动======
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.ct.client:id/vPager  (360, 617)
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.ct.client:id/vPager  (360, 617)
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.ct.client:id/vPager  (360, 617)
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.ct.client:id/vPager  (360, 617)
+android.widget.FrameLayout   (360, 592)
+   android.support.v4.view.ViewPager com.ct.client:id/vPager  (360, 617)
+      android.widget.LinearLayout   (360, 617)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ct.client:id/tv_title 软件升级 (360, 723)
+   android.widget.TextView com.ct.client:id/tv_content 发现新版本 6.7.0
+1、充值可用积分抵扣，妙！
+2、在线预约取号，玩转附近营业厅，爽！
+3、充值卡密码扫码即充，快！
+4、其他若干问题优化，呃！ (360, 882)
+   android.widget.LinearLayout com.ct.client:id/ll_notice  (125, 1032)
+      android.widget.CheckBox com.ct.client:id/cb_nomore  (40, 1022)
+      android.widget.TextView com.ct.client:id/tv_notice_msg 跳过此版本 (156, 1022)
+   android.widget.Button com.ct.client:id/bt_no 取消升级 (179, 1126)
+   android.widget.Button com.ct.client:id/bt_yes 立即升级 (541, 1126)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ct.client:id/tv_title 软件升级 (360, 723)
+   android.widget.TextView com.ct.client:id/tv_content 发现新版本 6.7.0
+1、充值可用积分抵扣，妙！
+2、在线预约取号，玩转附近营业厅，爽！
+3、充值卡密码扫码即充，快！
+4、其他若干问题优化，呃！ (360, 882)
+   android.widget.LinearLayout com.ct.client:id/ll_notice  (125, 1032)
+      android.widget.CheckBox com.ct.client:id/cb_nomore  (40, 1022)
+      android.widget.TextView com.ct.client:id/tv_notice_msg 跳过此版本 (156, 1022)
+   android.widget.Button com.ct.client:id/bt_no 取消升级 (179, 1126)
+   android.widget.Button com.ct.client:id/bt_yes 立即升级 (541, 1126)
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ct.client:id/tv_title 软件升级 (360, 723)
+   android.widget.TextView com.ct.client:id/tv_content 发现新版本 6.7.0
+1、充值可用积分抵扣，妙！
+2、在线预约取号，玩转附近营业厅，爽！
+3、充值卡密码扫码即充，快！
+4、其他若干问题优化，呃！ (360, 882)
+   android.widget.LinearLayout com.ct.client:id/ll_notice  (125, 1032)
+      android.widget.CheckBox com.ct.client:id/cb_nomore  (40, 1022)
+      android.widget.TextView com.ct.client:id/tv_notice_msg 跳过此版本 (156, 1022)
+   android.widget.Button com.ct.client:id/bt_no 取消升级 (179, 1126)
+   android.widget.Button com.ct.client:id/bt_yes 立即升级 (541, 1126)
+完成授权和滑动后的页面
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ct.client:id/tv_title 软件升级 (360, 723)
+   android.widget.TextView com.ct.client:id/tv_content 发现新版本 6.7.0
+1、充值可用积分抵扣，妙！
+2、在线预约取号，玩转附近营业厅，爽！
+3、充值卡密码扫码即充，快！
+4、其他若干问题优化，呃！ (360, 882)
+   android.widget.LinearLayout com.ct.client:id/ll_notice  (125, 1032)
+      android.widget.CheckBox com.ct.client:id/cb_nomore  (40, 1022)
+      android.widget.TextView com.ct.client:id/tv_notice_msg 跳过此版本 (156, 1022)
+   android.widget.Button com.ct.client:id/bt_no 取消升级 (179, 1126)
+   android.widget.Button com.ct.client:id/bt_yes 立即升级 (541, 1126)
+
+
+======APK主界面======
+android.widget.FrameLayout   (360, 617)
+   android.widget.TextView com.ct.client:id/tv_title 软件升级 (360, 723)
+   android.widget.TextView com.ct.client:id/tv_content 发现新版本 6.7.0
+1、充值可用积分抵扣，妙！
+2、在线预约取号，玩转附近营业厅，爽！
+3、充值卡密码扫码即充，快！
+4、其他若干问题优化，呃！ (360, 882)
+   android.widget.LinearLayout com.ct.client:id/ll_notice  (125, 1032)
+      android.widget.CheckBox com.ct.client:id/cb_nomore  (40, 1022)
+      android.widget.TextView com.ct.client:id/tv_notice_msg 跳过此版本 (156, 1022)
+   android.widget.Button com.ct.client:id/bt_no 取消升级 (179, 1126)
+   android.widget.Button com.ct.client:id/bt_yes 立即升级 (541, 1126)
+Success
+======卸载APK后的界面======
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 18 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 43 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 33 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 18 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 43 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 33 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+总运行时间: 140
+执行命令时间: 115
+**********************************************************************************
+****************************************任务50*************************************
+**********************************************************************************
+======初始化相关目录======
+======下载APK======
+http://imtt.dd.qq.com/16891/AAEDE7F72C2D55113B78CE998D47E562.apk?fsname=com.taptap_2.0.0_517.apk&csr=9dcc
+======解析APK相关信息======
+package: name='com.taptap' versionCode='517' versionName='2.0.0'
+launchable-activity: name='com.play.taptap.ui.SplashAct'  label='TapTap' icon=''
+com.taptap
+com.play.taptap.ui.SplashAct
+======尝试安装APK======
+======APK安装成功======
+======开始运行APK======
+Starting: Intent { cmp=com.taptap/com.play.taptap.ui.SplashAct }
+======APK运行成功======
+======第一次进入APK后的界面======
+dos2unix: converting file ./apk_temp/login_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.taptap:id/title 版本更新 2.0.4 (360, 264)
+   android.widget.TextView com.taptap:id/update_content [全新内容]
+-全新首页游戏/推荐界面
+-首页游戏刷新随机展示游戏
+-首页推荐新增攻略栏
+[优化体验]
+-进入帖子浏览详情速度优化
+[BUG修复]
+-长评价分享崩溃修复
+-修复部分偶现问题 (360, 577)
+   android.widget.TextView com.taptap:id/size 共16.87 M (198, 923)
+   android.widget.TextView com.taptap:id/btn_cancel 取消 (404, 923)
+   android.widget.TextView com.taptap:id/btn_update 立即更新 (536, 923)
+======设置相关权限页面======
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.taptap:id/title 版本更新 2.0.4 (360, 264)
+   android.widget.TextView com.taptap:id/update_content [全新内容]
+-全新首页游戏/推荐界面
+-首页游戏刷新随机展示游戏
+-首页推荐新增攻略栏
+[优化体验]
+-进入帖子浏览详情速度优化
+[BUG修复]
+-长评价分享崩溃修复
+-修复部分偶现问题 (360, 577)
+   android.widget.TextView com.taptap:id/size 共16.87 M (198, 923)
+   android.widget.TextView com.taptap:id/btn_cancel 取消 (404, 923)
+   android.widget.TextView com.taptap:id/btn_update 立即更新 (536, 923)
+
+
+======初步计算界面返回信息的行数======
+dos2unix: converting file ./apk_temp/count_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.taptap:id/title 版本更新 2.0.4 (360, 264)
+   android.widget.TextView com.taptap:id/update_content [全新内容]
+-全新首页游戏/推荐界面
+-首页游戏刷新随机展示游戏
+-首页推荐新增攻略栏
+[优化体验]
+-进入帖子浏览详情速度优化
+[BUG修复]
+-长评价分享崩溃修复
+-修复部分偶现问题 (360, 577)
+   android.widget.TextView com.taptap:id/size 共16.87 M (198, 923)
+   android.widget.TextView com.taptap:id/btn_cancel 取消 (404, 923)
+   android.widget.TextView com.taptap:id/btn_update 立即更新 (536, 923)
+14
+======从右向左滑动======
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.taptap:id/title 版本更新 2.0.4 (360, 264)
+   android.widget.TextView com.taptap:id/update_content [全新内容]
+-全新首页游戏/推荐界面
+-首页游戏刷新随机展示游戏
+-首页推荐新增攻略栏
+[优化体验]
+-进入帖子浏览详情速度优化
+[BUG修复]
+-长评价分享崩溃修复
+-修复部分偶现问题 (360, 577)
+   android.widget.TextView com.taptap:id/size 共16.87 M (198, 923)
+   android.widget.TextView com.taptap:id/btn_cancel 取消 (404, 923)
+   android.widget.TextView com.taptap:id/btn_update 立即更新 (536, 923)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.taptap:id/title 版本更新 2.0.4 (360, 264)
+   android.widget.TextView com.taptap:id/update_content [全新内容]
+-全新首页游戏/推荐界面
+-首页游戏刷新随机展示游戏
+-首页推荐新增攻略栏
+[优化体验]
+-进入帖子浏览详情速度优化
+[BUG修复]
+-长评价分享崩溃修复
+-修复部分偶现问题 (360, 577)
+   android.widget.TextView com.taptap:id/size 共16.87 M (198, 923)
+   android.widget.TextView com.taptap:id/btn_cancel 取消 (404, 923)
+   android.widget.TextView com.taptap:id/btn_update 立即更新 (536, 923)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.taptap:id/title 版本更新 2.0.4 (360, 264)
+   android.widget.TextView com.taptap:id/update_content [全新内容]
+-全新首页游戏/推荐界面
+-首页游戏刷新随机展示游戏
+-首页推荐新增攻略栏
+[优化体验]
+-进入帖子浏览详情速度优化
+[BUG修复]
+-长评价分享崩溃修复
+-修复部分偶现问题 (360, 577)
+   android.widget.TextView com.taptap:id/size 共16.87 M (198, 923)
+   android.widget.TextView com.taptap:id/btn_cancel 取消 (404, 923)
+   android.widget.TextView com.taptap:id/btn_update 立即更新 (536, 923)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.taptap:id/title 版本更新 2.0.4 (360, 264)
+   android.widget.TextView com.taptap:id/update_content [全新内容]
+-全新首页游戏/推荐界面
+-首页游戏刷新随机展示游戏
+-首页推荐新增攻略栏
+[优化体验]
+-进入帖子浏览详情速度优化
+[BUG修复]
+-长评价分享崩溃修复
+-修复部分偶现问题 (360, 577)
+   android.widget.TextView com.taptap:id/size 共16.87 M (198, 923)
+   android.widget.TextView com.taptap:id/btn_cancel 取消 (404, 923)
+   android.widget.TextView com.taptap:id/btn_update 立即更新 (536, 923)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.taptap:id/title 版本更新 2.0.4 (360, 264)
+   android.widget.TextView com.taptap:id/update_content [全新内容]
+-全新首页游戏/推荐界面
+-首页游戏刷新随机展示游戏
+-首页推荐新增攻略栏
+[优化体验]
+-进入帖子浏览详情速度优化
+[BUG修复]
+-长评价分享崩溃修复
+-修复部分偶现问题 (360, 577)
+   android.widget.TextView com.taptap:id/size 共16.87 M (198, 923)
+   android.widget.TextView com.taptap:id/btn_cancel 取消 (404, 923)
+   android.widget.TextView com.taptap:id/btn_update 立即更新 (536, 923)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.taptap:id/title 版本更新 2.0.4 (360, 264)
+   android.widget.TextView com.taptap:id/update_content [全新内容]
+-全新首页游戏/推荐界面
+-首页游戏刷新随机展示游戏
+-首页推荐新增攻略栏
+[优化体验]
+-进入帖子浏览详情速度优化
+[BUG修复]
+-长评价分享崩溃修复
+-修复部分偶现问题 (360, 577)
+   android.widget.TextView com.taptap:id/size 共16.87 M (198, 923)
+   android.widget.TextView com.taptap:id/btn_cancel 取消 (404, 923)
+   android.widget.TextView com.taptap:id/btn_update 立即更新 (536, 923)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.taptap:id/title 版本更新 2.0.4 (360, 264)
+   android.widget.TextView com.taptap:id/update_content [全新内容]
+-全新首页游戏/推荐界面
+-首页游戏刷新随机展示游戏
+-首页推荐新增攻略栏
+[优化体验]
+-进入帖子浏览详情速度优化
+[BUG修复]
+-长评价分享崩溃修复
+-修复部分偶现问题 (360, 577)
+   android.widget.TextView com.taptap:id/size 共16.87 M (198, 923)
+   android.widget.TextView com.taptap:id/btn_cancel 取消 (404, 923)
+   android.widget.TextView com.taptap:id/btn_update 立即更新 (536, 923)
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.taptap:id/title 版本更新 2.0.4 (360, 264)
+   android.widget.TextView com.taptap:id/update_content [全新内容]
+-全新首页游戏/推荐界面
+-首页游戏刷新随机展示游戏
+-首页推荐新增攻略栏
+[优化体验]
+-进入帖子浏览详情速度优化
+[BUG修复]
+-长评价分享崩溃修复
+-修复部分偶现问题 (360, 577)
+   android.widget.TextView com.taptap:id/size 共16.87 M (198, 923)
+   android.widget.TextView com.taptap:id/btn_cancel 取消 (404, 923)
+   android.widget.TextView com.taptap:id/btn_update 立即更新 (536, 923)
+完成授权和滑动后的页面
+dos2unix: converting file ./apk_temp/index_screen.log to Unix format...
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.taptap:id/title 版本更新 2.0.4 (360, 264)
+   android.widget.TextView com.taptap:id/update_content [全新内容]
+-全新首页游戏/推荐界面
+-首页游戏刷新随机展示游戏
+-首页推荐新增攻略栏
+[优化体验]
+-进入帖子浏览详情速度优化
+[BUG修复]
+-长评价分享崩溃修复
+-修复部分偶现问题 (360, 577)
+   android.widget.TextView com.taptap:id/size 共16.87 M (198, 923)
+   android.widget.TextView com.taptap:id/btn_cancel 取消 (404, 923)
+   android.widget.TextView com.taptap:id/btn_update 立即更新 (536, 923)
+
+
+======APK主界面======
+android.widget.FrameLayout   (360, 592)
+   android.widget.TextView com.taptap:id/title 版本更新 2.0.4 (360, 264)
+   android.widget.TextView com.taptap:id/update_content [全新内容]
+-全新首页游戏/推荐界面
+-首页游戏刷新随机展示游戏
+-首页推荐新增攻略栏
+[优化体验]
+-进入帖子浏览详情速度优化
+[BUG修复]
+-长评价分享崩溃修复
+-修复部分偶现问题 (360, 577)
+   android.widget.TextView com.taptap:id/size 共16.87 M (198, 923)
+   android.widget.TextView com.taptap:id/btn_cancel 取消 (404, 923)
+   android.widget.TextView com.taptap:id/btn_update 立即更新 (536, 923)
+Success
+======卸载APK后的界面======
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 19 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 13 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 30 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+android.widget.FrameLayout   (360, 592)
+   android.view.View com.huawei.android.launcher:id/workspace_screen  (360, 505)
+      android.appwidget.AppWidgetHostView   (360, 158)
+         android.widget.FrameLayout   (360, 158)
+            android.view.View   (360, 157)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/time_display  (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_hour 19 (88, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_colon : (164, 160)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_time_minute 13 (240, 160)
+               android.widget.LinearLayout com.huawei.android.totemweather:id/city_name_layout  (370, 154)
+                  android.widget.TextView com.huawei.android.totemweather:id/widget_city_name 武汉 (354, 154)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_city_date 9月4日 (348, 190)
+               android.widget.ImageView com.huawei.android.totemweather:id/widget_currentweather_smallicon  (640, 162)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature 30 (578, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_current_temperature_unit ℃ (605, 215)
+               android.widget.TextView com.huawei.android.totemweather:id/widget_highlow_temperature 35°/24° (658, 215)
+      android.appwidget.AppWidgetHostView   (184, 342)
+         android.widget.RelativeLayout com.android.gallery3d:id/appwidget_view  (184, 342)
+            android.widget.TextView com.android.gallery3d:id/appwidget_album_name 选择相册 (75, 407)
+      android.appwidget.AppWidgetHostView   (536, 342)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_album_cover  (536, 341)
+         android.widget.TextView com.android.mediacenter:id/widget_id_title Hit Da Stylin' (535, 326)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_prev  (445, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_play  (536, 378)
+         android.widget.ImageView com.android.mediacenter:id/widget_id_control_next  (627, 378)
+      android.appwidget.AppWidgetHostView   (360, 526)
+         android.widget.TextView com.baidu.searchbox:id/widget_textinput  (360, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_gosearch  (77, 526)
+         android.widget.ImageView com.baidu.searchbox:id/widget_voice_btn  (643, 526)
+      android.widget.TextView  时钟 (96, 894)
+      android.widget.TextView  日历 (272, 894)
+      android.widget.TextView  设置 (448, 894)
+      android.widget.TextView  相机 (624, 894)
+   android.widget.ImageView com.huawei.android.launcher:id/dock_divider  (360, 1023)
+   android.widget.FrameLayout com.huawei.android.launcher:id/hotseat  (360, 1099)
+      android.widget.TextView   (96, 1099)
+      android.widget.TextView   (272, 1099)
+      android.widget.TextView   (448, 1099)
+      android.widget.TextView   (624, 1099)
+      android.widget.ImageView com.huawei.android.launcher:id/bg_dock  (360, 1099)
+总运行时间: 171
+执行命令时间: 146
+
+
+
+
+
+
+
+
+
+
+
+
+
